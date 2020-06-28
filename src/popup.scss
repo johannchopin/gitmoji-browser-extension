@@ -1,0 +1,23 @@
+:root {
+  --color-yellow: #ffdd67;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: var(--color-yellow);
+  padding: 1em 2em;
+
+  .gitmoji-logo {
+    width: 100px;
+  }
+
+  button svg {
+    width: 30%;
+  }
+}
