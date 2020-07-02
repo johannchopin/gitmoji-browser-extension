@@ -35,12 +35,11 @@
 
   .emoji {
     font-size: 2em;
-    padding: 0.4em 0;
+    margin: auto;
     min-width: 1.9em;
     height: 1.7em;
     background: var(--color);
     border-radius: 4px 0 0 4px;
-    border-bottom: solid 3px transparent;
   }
 
   .emoji span {
