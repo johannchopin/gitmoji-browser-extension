@@ -9,8 +9,9 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "yarn parcel build './src/**/*.(js|html|png)'",
-    "watch": "yarn parcel watch './src/**/*.(js|html|png)'"
+    "move:manifest": "yarn cp-cli ./manifest.json ./dist/manifest.json",
+    "build": "yarn move:manifest && yarn parcel build './src/**/*.(js|html|png)'",
+    "watch": "yarn move:manifest && yarn parcel watch './src/**/*.(js|html|png)'"
   },
   "webExt": {
     "sourceDir": "./dist"
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@babel/polyfill": "7.10.4",
+    "cp-cli": "^2.0.0",
     "parcel": "1.12.4",
     "parcel-bundler": "1.12.4",
     "parcel-plugin-svelte": "4.0.6",
