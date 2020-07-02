@@ -23,6 +23,11 @@
 </script>
 
 <style>
+  @font-face {
+    font-family: Avenir;
+    src: url('./assets/fonts/AvenirLTStd-Roman.otf');
+  }
+
   :root {
     --color-primary: #ffdd67;
   }
