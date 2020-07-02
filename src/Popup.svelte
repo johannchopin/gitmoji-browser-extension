@@ -31,6 +31,7 @@
     margin: 0;
     padding: 0;
     font-size: 10px;
+    font-family: Avenir;
   }
 
   :global(#popup-content) {
