@@ -7,7 +7,7 @@
     "default_popup": "./popup.html"
   },
   "default_icon": {
-    "72": "icon-72x72.png"
+    "72": "popup-icon.png"
   },
   "manifest_version": 2
 }
