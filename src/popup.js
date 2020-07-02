@@ -1,6 +1,7 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const bg = chrome.extension.getBackgroundPage()
-  document.querySelector('button').addEventListener('click', function () {
-    chrome.tabs.create({"url": "https://gitmoji.carloscuesta.me/"})
-  })
-})
+import Popup from './Popup.svelte';
+
+const popup = new Popup({
+  target: document.body
+});
+
+export default popup;
