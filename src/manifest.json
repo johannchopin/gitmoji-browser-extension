@@ -15,8 +15,5 @@
   "default_icon": {
     "72": "icon-72x72.png"
   },
-  "background": {
-    "scripts": ["./background.js"]
-  },
   "manifest_version": 2
 }
