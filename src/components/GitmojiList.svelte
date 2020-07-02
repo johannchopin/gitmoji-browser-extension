@@ -17,6 +17,6 @@
 
 <ul id="gitmojiList">
   {#each gitmojis as { name, code, description, emoji }}
-    <Gitmoji {code} {description} {emoji} color={gitmojiColor[name]} />
+    <Gitmoji {code} {emoji} color={gitmojiColor[name]} />
   {/each}
 </ul>

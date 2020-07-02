@@ -9,7 +9,7 @@
     "watch": "yarn parcel watch './src/**/*.(js|html|png)'"
   },
   "webExt": {
-    "sourceDir": "."
+    "sourceDir": "./dist"
   },
   "dependencies": {
     "gitmojis": "2.0.0",
