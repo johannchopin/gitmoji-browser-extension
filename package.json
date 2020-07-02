@@ -5,18 +5,23 @@
   "author": "johannchopin <johannchopin@pm.me>",
   "license": "MIT",
   "scripts": {
-    "build": "yarn parcel build './src/**/*.(js|html)'",
-    "watch": "yarn parcel watch './src/**/*.(js|html)'"
+    "build": "yarn parcel build './src/**/*.(js|html|png)'",
+    "watch": "yarn parcel watch './src/**/*.(js|html|png)'"
+  },
+  "webExt": {
+    "sourceDir": "./dist"
   },
   "dependencies": {
-    "gitmojis": "2.0.0"
+    "gitmojis": "2.0.0",
+    "parcel-plugin-web-ext-tool": "^0.1.2",
+    "web-ext": "^4.3.0"
   },
   "devDependencies": {
     "@babel/polyfill": "7.10.4",
-    "parcel-transformer-svelte": "1.0.3",
     "parcel": "1.12.4",
     "parcel-bundler": "1.12.4",
     "parcel-plugin-svelte": "4.0.6",
+    "parcel-transformer-svelte": "1.0.3",
     "svelte": "3.23.2",
     "svelte-preprocess": "3.9.11"
   }
