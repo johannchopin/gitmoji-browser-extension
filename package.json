@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "repository": "https://gitlab.com/johannchopin/gitmoji-chrome-extension.git",
   "author": "johannchopin <johannchopin@pm.me>",
+  "maintainers": [
+    "johannchopin <johannchopin@protonmail.com> (https://lyokolux.space)",
+    "Lyokolux <lyokolux@protonmail.com> (https://cv.johannchopin.fr/)"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "yarn parcel build './src/**/*.(js|html)'",
