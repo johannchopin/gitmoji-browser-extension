@@ -41,3 +41,9 @@ All remarks are welcome. Open an issue 😉
 ## License
 
 The code is available under [the MIT license](./LICENCE).
+
+----
+
+<p align="center">
+  Made with ❤ by <a href="https://github.com/johannchopin">@johannchopin</a> and <a href="https://github.com/Lyokolux">@lyokolux</a>
+</p>
