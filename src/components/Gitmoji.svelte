@@ -14,7 +14,7 @@
       }
     );
 
-    onSave()
+    onSave();
   };
 </script>
 
@@ -57,9 +57,9 @@
 
   .code {
     width: 100%;
-    font-size: 1.5em;
+    font-size: 1.7em;
     padding-left: 0.5em;
-    font-weight: 450;
+    font-weight: 600;
     text-align: left;
   }
 
