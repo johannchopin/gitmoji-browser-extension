@@ -1,17 +1,17 @@
 <script>
-  import Gitmoji from "./Gitmoji";
-  import gitmojiColor from "../data/gitmojiColors.json";
+  import Gitmoji from "./Gitmoji"
+  import gitmojiColor from "../data/gitmojiColors.json"
 
-  export let gitmojis;
+  export let gitmojis
 
-  let clicked = false;
+  let clicked = false
 
   const animateSavedToClipboard = () => {
-    clicked = true;
+    clicked = true
 
     setTimeout(() => { 
-      clicked = false;
-    }, 500);
+      clicked = false
+    }, 500)
   }
 </script>
 

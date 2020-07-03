@@ -1,25 +1,25 @@
 <script>
-  import { gitmojis } from "gitmojis";
-  import Searchbar from "./components/Searchbar";
-  import GitmojiList from "./components/GitmojiList";
-  import Footer from "./components/Footer";
+  import { gitmojis } from "gitmojis"
+  import Searchbar from "./components/Searchbar"
+  import GitmojiList from "./components/GitmojiList"
+  import Footer from "./components/Footer"
 
-  let searchValue = "";
-  let matchingGitmojis;
+  let searchValue = ""
+  let matchingGitmojis
 
   const getFilteredGitmojis = (searchValue, gitmojis) => {
-    const loweredSerchValue = searchValue.toLowerCase();
+    const loweredSerchValue = searchValue.toLowerCase()
 
     return gitmojis.filter((gitmoji) => {
       return (
         gitmoji.description.toLowerCase().includes(loweredSerchValue) ||
         gitmoji.name.toLowerCase().includes(loweredSerchValue) ||
         gitmoji.code.includes(loweredSerchValue)
-      );
-    });
-  };
+      )
+    })
+  }
 
-  $: matchingGitmojis = getFilteredGitmojis(searchValue, gitmojis);
+  $: matchingGitmojis = getFilteredGitmojis(searchValue, gitmojis)
 </script>
 
 <style>
@@ -162,7 +162,7 @@
 
   <Searchbar
     on:input={(value) => {
-      searchValue = value.target.value;
+      searchValue = value.target.value
     }} />
 </header>
 
