@@ -1,6 +1,6 @@
 <script>
-  import Gitmoji from "./Gitmoji"
-  import gitmojiColor from "../data/gitmojiColors.json"
+  import Gitmoji from './Gitmoji'
+  import gitmojiColor from '../data/gitmojiColors.json'
 
   export let gitmojis
 
@@ -9,7 +9,7 @@
   const animateSavedToClipboard = () => {
     clicked = true
 
-    setTimeout(() => { 
+    setTimeout(() => {
       clicked = false
     }, 500)
   }
