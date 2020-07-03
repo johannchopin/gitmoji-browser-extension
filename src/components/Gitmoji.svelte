@@ -2,6 +2,7 @@
   export let code;
   export let emoji;
   export let color;
+  export let onSave;
 
   const copyToClipboard = (value) => {
     navigator.clipboard.writeText(value).then(
@@ -12,6 +13,8 @@
         console.error("Async: Could not copy text: ", err);
       }
     );
+
+    onSave()
   };
 </script>
 
