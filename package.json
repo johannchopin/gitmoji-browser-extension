@@ -18,6 +18,7 @@
     "sourceDir": "./dist"
   },
   "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.0",
     "gitmojis": "2.0.0",
     "parcel-plugin-web-ext-tool": "^0.1.2",
     "web-ext": "^4.3.0"
