@@ -110,18 +110,10 @@
 </style>
 
 <li class="gitmoji" style="--color:{color}">
-  <button
-    class="emoji"
-    on:click={() => {
-      copyToClipboard(emoji);
-    }}>
+  <button class="emoji" on:click={copyToClipboard(emoji)}>
     <span>{emoji}</span>
   </button>
-  <button
-    class="code"
-    on:click={() => {
-      copyToClipboard(code);
-    }}>
+  <button class="code" on:click={copyToClipboard(code)}>
     <span>{code}</span>
   </button>
 </li>
