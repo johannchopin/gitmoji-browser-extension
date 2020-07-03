@@ -11,7 +11,7 @@ The [Gitmoji](https://gitmoji.carloscuesta.me/) extension to easily search and c
 </a>
 
 <p align="center">
-  <img src="static/popup-screenshot.png" alt="Screenshot - overview" width="320" />
+  <img src="https://user-images.githubusercontent.com/31794680/86494230-af1d2400-bd74-11ea-9c08-29238c853127.gif" alt="Screenshot - overview" width="320" />
 </p>
 
 
