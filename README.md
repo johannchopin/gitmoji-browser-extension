@@ -8,7 +8,7 @@
 </a>
 
 <p align="center">
-  <img src="static/popup-screenshot.png" alt="Screenshot - overview" />
+  <img src="static/popup-screenshot.png" alt="Screenshot - overview" width="320" />
 </p>
 
 ## ✨ Install and use
