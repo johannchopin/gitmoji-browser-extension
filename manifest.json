@@ -1,7 +1,7 @@
 {
-  "name": "gitmoji-chrome-extension",
+  "name": "Gitmoji Browser Extension",
   "version": "1.0",
-  "description": "Convert gitmoji shortcode to the corresponding emoji",
+  "description": "The Gitmoji extension to easily search and copy gitmojis 😜",
   "permissions": [],
   "browser_action": {
     "default_popup": "./popup.html",
