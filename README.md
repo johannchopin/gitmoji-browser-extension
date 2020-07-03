@@ -7,9 +7,9 @@
   <img src="https://travis-ci.org/johannchopin/gitmoji-browser-extension.svg?branch=master" alt="Build Status">
 </a>
 
-<div style="display: flex; justify-content: center">
-<img src="static/popup-screenshot.png" alt="Screenshot - overview" />
-</div>
+<p align="center">
+  <img src="static/popup-screenshot.png" alt="Screenshot - overview" />
+</p>
 
 ## ✨ Install and use
 
