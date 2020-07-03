@@ -38,4 +38,4 @@ All remarks are welcome. Open an issue 😉
 
 ## License
 
-The code is available under the MIT license.
+The code is available under [the MIT license](./LICENCE).
