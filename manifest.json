@@ -4,10 +4,19 @@
   "description": "Convert gitmoji shortcode to the corresponding emoji",
   "permissions": [],
   "browser_action": {
-    "default_popup": "./popup.html"
+    "default_popup": "./popup.html",
+    "default_icon": "popup-icon.png"
   },
   "icons": {
     "72": "popup-icon.png"
   },
-  "manifest_version": 2
+  "manifest_version": 2,
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Alt+G"
+      },
+      "description": "Open the gitmoji popup"
+    }
+  }
 }
