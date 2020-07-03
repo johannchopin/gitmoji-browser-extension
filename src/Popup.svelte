@@ -7,6 +7,10 @@
   let searchValue = ''
   let matchingGitmojis
 
+  const setSearchValue = (value) => {
+    searchValue = value.target.value
+  }
+
   const getFilteredGitmojis = (filter) => {
     const loweredFilter = filter.toLowerCase()
 
@@ -160,10 +164,7 @@
     </g>
   </svg>
 
-  <Searchbar
-    on:input={(value) => {
-      searchValue = value.target.value
-    }} />
+  <Searchbar on:input={setSearchValue} />
 </header>
 
 <GitmojiList gitmojis={matchingGitmojis} />
