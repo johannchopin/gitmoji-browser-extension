@@ -1,5 +1,8 @@
 # 😜 Gitmoji Browser Extension
 
+The [Gitmoji](https://gitmoji.carloscuesta.me/) extension to easily search and copy gitmojis 😜
+
+
 <a href="https://gitmoji.carloscuesta.me">
   <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
 </a>
@@ -10,6 +13,7 @@
 <p align="center">
   <img src="static/popup-screenshot.png" alt="Screenshot - overview" width="320" />
 </p>
+
 
 ## ✨ Install and use
 
