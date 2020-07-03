@@ -9,10 +9,10 @@
   const animateSavedToClipboard = () => {
     clicked = true;
 
-    setTimeout(() => { 
+    setTimeout(() => {
       clicked = false;
     }, 500);
-  }
+  };
 </script>
 
 <style>
@@ -24,7 +24,6 @@
     margin: 0;
   }
 
-
   #saveAnimationAnchor {
     position: absolute;
     bottom: 0;
@@ -35,7 +34,7 @@
     z-index: -1;
     animation: saved 0.5s forwards;
   }
-  
+
   @keyframes saved {
     0% {
       width: 0;
@@ -54,15 +53,14 @@
 
 <ul id="gitmojiList">
   {#each gitmojis as { name, code, description, emoji }}
-    <Gitmoji 
-      {code} 
-      {emoji} 
-      color={gitmojiColor[name]} 
-      onSave={animateSavedToClipboard}
-    />
+    <Gitmoji
+      {code}
+      {emoji}
+      color={gitmojiColor[name]}
+      onSave={animateSavedToClipboard} />
   {/each}
 </ul>
 
 {#if clicked}
-  <span id="saveAnimationAnchor"></span>
+  <span id="saveAnimationAnchor" />
 {/if}
