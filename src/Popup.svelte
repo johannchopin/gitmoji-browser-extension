@@ -1,25 +1,29 @@
 <script>
-  import { gitmojis } from "gitmojis";
-  import Searchbar from "./components/Searchbar";
-  import GitmojiList from "./components/GitmojiList";
-  import Footer from "./components/Footer";
+  import { gitmojis } from 'gitmojis'
+  import Searchbar from './components/Searchbar'
+  import GitmojiList from './components/GitmojiList'
+  import Footer from './components/Footer'
 
-  let searchValue = "";
-  let matchingGitmojis;
+  let searchValue = ''
+  let matchingGitmojis
 
-  const getFilteredGitmojis = (searchValue, gitmojis) => {
-    const loweredSerchValue = searchValue.toLowerCase();
+  const setSearchValue = (value) => {
+    searchValue = value.target.value
+  }
+
+  const getFilteredGitmojis = (filter) => {
+    const loweredFilter = filter.toLowerCase()
 
     return gitmojis.filter((gitmoji) => {
       return (
-        gitmoji.description.toLowerCase().includes(loweredSerchValue) ||
-        gitmoji.name.toLowerCase().includes(loweredSerchValue) ||
-        gitmoji.code.includes(loweredSerchValue)
-      );
-    });
-  };
+        gitmoji.description.toLowerCase().includes(loweredFilter)
+      || gitmoji.name.toLowerCase().includes(loweredFilter)
+      || gitmoji.code.includes(loweredFilter)
+      )
+    })
+  }
 
-  $: matchingGitmojis = getFilteredGitmojis(searchValue, gitmojis);
+  $: matchingGitmojis = getFilteredGitmojis(searchValue)
 </script>
 
 <style>
@@ -160,10 +164,7 @@
     </g>
   </svg>
 
-  <Searchbar
-    on:input={(value) => {
-      searchValue = value.target.value;
-    }} />
+  <Searchbar on:input={setSearchValue} />
 </header>
 
 <GitmojiList gitmojis={matchingGitmojis} />

@@ -1,21 +1,21 @@
 <script>
-  export let code;
-  export let emoji;
-  export let color;
-  export let onSave;
+  export let code
+  export let emoji
+  export let color
+  export let onSave
 
   const copyToClipboard = (value) => {
     navigator.clipboard.writeText(value).then(
-      function () {
-        console.log("Async: Copying to clipboard was successful!");
+      () => {
+        console.log('Async: Copying to clipboard was successful!')
       },
-      function (err) {
-        console.error("Async: Could not copy text: ", err);
+      (err) => {
+        console.error('Async: Could not copy text: ', err)
       }
-    );
+    )
 
-    onSave();
-  };
+    onSave()
+  }
 </script>
 
 <style>
