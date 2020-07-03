@@ -14,14 +14,9 @@
     "watch": "yarn move:manifest && yarn parcel watch './src/**/*.(js|html|png)'",
     "lint": "yarn eslint ./src/"
   },
-  "webExt": {
-    "sourceDir": "./dist"
-  },
   "dependencies": {
     "eslint-config-airbnb-base": "^14.2.0",
-    "gitmojis": "2.0.0",
-    "parcel-plugin-web-ext-tool": "^0.1.2",
-    "web-ext": "^4.3.0"
+    "gitmojis": "2.0.0"
   },
   "devDependencies": {
     "@babel/polyfill": "7.10.4",
