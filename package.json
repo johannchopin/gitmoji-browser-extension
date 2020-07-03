@@ -10,25 +10,26 @@
   "license": "MIT",
   "scripts": {
     "move:manifest": "yarn cpy ./manifest.json ./dist",
-    "build": "yarn move:manifest && yarn parcel build './src/**/*.(js|html|png)'",
+    "build": "yarn rimraf ./dist && yarn move:manifest && yarn parcel build './src/**/*.(js|html|png)'",
     "watch": "yarn move:manifest && yarn parcel watch './src/**/*.(js|html|png)'",
     "start": "yarn move:manifest && yarn parcel ./sandbox/popup-sandbox.html --open",
-    "lint": "yarn eslint ./src/"
+    "lint": "yarn eslint ./src"
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^14.2.0",
-    "gitmojis": "2.0.0"
+    "gitmojis": "2.0.0",
+    "svelte": "3.23.2"
   },
   "devDependencies": {
     "@babel/polyfill": "7.10.4",
     "cpy-cli": "^3.1.1",
     "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-svelte3": "^2.7.3",
     "parcel": "1.12.4",
     "parcel-bundler": "1.12.4",
     "parcel-plugin-svelte": "4.0.6",
     "parcel-transformer-svelte": "1.0.3",
-    "svelte": "3.23.2",
+    "rimraf": "^3.0.2",
     "svelte-preprocess": "3.9.11"
   }
 }
