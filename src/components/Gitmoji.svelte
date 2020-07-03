@@ -47,12 +47,20 @@
 
   .emoji span {
     display: block;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .emoji:hover,
+  .emoji:focus {
+    transition: background-color 0.2s;
+    background-color: white;
+    box-shadow: inset 0 0 1px 3px var(--color);
   }
 
   .emoji:hover span,
   .emoji:focus span {
-    animation-name: bounce;
-    animation-duration: 0.5s;
+    animation: 0.5s bounce;
   }
 
   .code {
@@ -64,18 +72,28 @@
   }
 
   .code span {
+    position: relative;
     border-radius: 4px;
     transition-duration: 0.3s;
-    border-bottom: 2px solid transparent;
     background-color: rgba(var(--color), 0.3);
     box-shadow: 0 4px rgba(var(--color), 0.6);
+    border-bottom: 4px transparent;
+  }
+  .code:hover span::before,
+  .code:focus span::before {
+    position: absolute;
+    content: "";
+    margin-top: 1em; /* put it under the text */
+    width: 100%;
+    height: 0.2em;
+    background-color: var(--color);
+    animation: 0.15s slideRight;
   }
 
-  .code:hover,
-  .code:focus {
-    transition-duration: 0.3s;
-    /* background-color: var(--color);
-  border-left: 1px solid black; */
+  @keyframes slideRight {
+    from {
+      width: 0em;
+    }
   }
 
   /*
