@@ -5,15 +5,7 @@
   export let onSave
 
   const copyToClipboard = (value) => {
-    navigator.clipboard.writeText(value).then(
-      () => {
-        console.log('Async: Copying to clipboard was successful!')
-      },
-      (err) => {
-        console.error('Async: Could not copy text: ', err)
-      }
-    )
-
+    navigator.clipboard.writeText(value)
     onSave()
   }
 </script>
