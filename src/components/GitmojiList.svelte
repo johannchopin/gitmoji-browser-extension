@@ -20,7 +20,6 @@
     list-style: none;
     padding-inline-start: 0;
     overflow-y: scroll;
-    height: 19em;
     margin: 0;
   }
 
