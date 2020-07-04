@@ -9,11 +9,12 @@
   ],
   "license": "MIT",
   "scripts": {
+    "move:icons": "yarn cpy ./static/icons/ ./dist/icons/",
     "move:manifest": "yarn cpy ./manifest.json ./dist",
     "start": "yarn move:manifest && yarn parcel ./sandbox/popup-sandbox.html --open",
     "watch": "yarn move:manifest && yarn parcel watch './src/**/*.(js|html|png)'",
     "clean": "yarn rimraf ./dist extension.zip",
-    "build": "yarn clean && yarn move:manifest && yarn parcel build './src/**/*.(js|html|png)' --no-source-maps && yarn node scripts/zipExtension.js",
+    "build": "yarn clean && yarn move:manifest && yarn move:icons && yarn parcel build './src/**/*.(js|html|png)' --no-source-maps && yarn node scripts/zipExtension.js",
     "lint": "yarn eslint ./src"
   },
   "dependencies": {
