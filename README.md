@@ -32,7 +32,7 @@ Install the extension according to your browser:
 - use <kbd>tab</kbd> and <kbd>Shift+tab</kbd> to navigate between the shortcodes and emojis
 - press <kbd>Enter</kbd> to copy
 
-## 🔨 Run the project
+## 🔨 Run the extension
 
 ```sh
 yarn install
@@ -46,7 +46,7 @@ Load extension in the browser
 - in Firefox : [Temporary installation in Firefox](https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/)
 - in Chrome : [Create the manifest step](https://developer.chrome.com/extensions/getstarted#manifest)
 
-### 🚀 Build the project
+### 🚀 Build the extension
 
 ```sh
 yarn build
