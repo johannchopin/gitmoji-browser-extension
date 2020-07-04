@@ -1,13 +1,13 @@
 <script>
-  export let code;
-  export let emoji;
-  export let color;
-  export let onSave;
+  export let code
+  export let emoji
+  export let color
+  export let onSave
 
   const copyToClipboard = (value) => {
-    navigator.clipboard.writeText(value);
-    onSave();
-  };
+    navigator.clipboard.writeText(value)
+    onSave()
+  }
 </script>
 
 <style>
