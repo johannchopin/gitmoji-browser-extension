@@ -75,9 +75,10 @@
   .code:focus span::before {
     position: absolute;
     content: "";
-    margin-top: 1em; /* put it under the text */
     width: 100%;
+    margin-top: 1em; /* put it under the text */
     height: 0.2em;
+    border-radius: 4px;
     background-color: var(--color);
     animation: 0.15s slideRight;
   }
