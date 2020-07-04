@@ -9,8 +9,9 @@
   ],
   "license": "MIT",
   "scripts": {
+    "clean": "yarn rimraf ./dist && yarn rimraf extension.zip",
     "move:manifest": "yarn cpy ./manifest.json ./dist",
-    "build": "yarn rimraf ./dist && yarn move:manifest && yarn parcel build './src/**/*.(js|html|png)' && yarn node scripts/zipExtension.js",
+    "build": "yarn clean && yarn move:manifest && yarn parcel build './src/**/*.(js|html|png)' --no-source-maps && yarn node scripts/zipExtension.js",
     "watch": "yarn move:manifest && yarn parcel watch './src/**/*.(js|html|png)'",
     "start": "yarn move:manifest && yarn parcel ./sandbox/popup-sandbox.html --open",
     "lint": "yarn eslint ./src"
