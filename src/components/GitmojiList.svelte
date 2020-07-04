@@ -17,6 +17,7 @@
 
 <style>
   #gitmojiList {
+    flex-grow: 1;
     list-style: none;
     padding-inline-start: 0;
     overflow-y: scroll;
@@ -26,7 +27,7 @@
   #saveAnimationAnchor {
     position: absolute;
     bottom: 0;
-    height: 1.6em; /* Approximative size of the Footer */
+    height: 1.7em; /* Approximative size of the Footer */
     width: 100%;
     background-color: #c5e763;
     opacity: 0.6;
