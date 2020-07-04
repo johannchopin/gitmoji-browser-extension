@@ -27,7 +27,7 @@ Install the extension according to your browser:
 
 ## ✨ Usage (keyboard)
 
-- toggle the extension button or with the shortcut <kbd>Alt+G</kbd> (<kbd>Opt+G</kbd> for mac)
+- toggle the extension button or use the shortcut <kbd>Alt+G</kbd> (<kbd>Opt+G</kbd> for mac)
 - search emoji names or descriptions (from the [website](https://gitmoji.carloscuesta.me/))
 - use <kbd>tab</kbd> and <kbd>Shift+tab</kbd> to navigate between the shortcodes and emojis
 - press <kbd>Enter</kbd> to copy
@@ -51,6 +51,8 @@ Load extension in the browser
 ```sh
 yarn build
 ```
+
+It will build the extension with all the needed assets and create the `extension.zip` file at the root of the project.
 
 ## 🦄 Contributing
 
