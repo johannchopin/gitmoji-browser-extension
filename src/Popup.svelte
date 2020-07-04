@@ -48,6 +48,7 @@
     display: flex;
     flex-direction: column;
     width: 300px;
+    height: 245px;
   }
 
   header {
@@ -66,7 +67,9 @@
 </style>
 
 <header>
-  <img src={logo} alt="Gitmoji logo" class="gitmoji-logo" />
+  <a href="https://gitmoji.carloscuesta.me/" target="_blank" class="gitmoji-logo">
+    <img src={logo} alt="Gitmoji logo" />
+  </a>
   <Searchbar on:input={setSearchValue} />
 </header>
 
