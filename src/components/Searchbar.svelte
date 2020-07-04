@@ -12,6 +12,7 @@
   }
 </style>
 
+<!-- svelte-ignore a11y-autofocus -->
 <input
   maxlength="70"
   type="text"
