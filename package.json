@@ -15,6 +15,7 @@
     "start": "yarn move:all && yarn parcel ./sandbox/popup-sandbox.html --open ",
     "watch": "yarn move:all && yarn parcel watch './src/**/*.(js|html|png)' --public-url .",
     "clean": "yarn rimraf ./dist extension.zip",
+    "build:sandbox": "yarn clean && yarn move:all && yarn parcel build ./sandbox/popup-sandbox.html --no-source-maps --public-url .",
     "build": "yarn clean && yarn move:all && yarn parcel build './src/**/*.(js|html|png)' --no-source-maps && yarn node scripts/zipExtension.js",
     "lint": "yarn eslint ./src"
   },
