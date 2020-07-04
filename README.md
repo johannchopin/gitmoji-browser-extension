@@ -8,6 +8,9 @@ The [Gitmoji](https://gitmoji.carloscuesta.me/) extension to easily search and c
 <a href="https://travis-ci.org/johannchopin/gitmoji-browser-extension">
   <img src="https://travis-ci.org/johannchopin/gitmoji-browser-extension.svg?branch=master" alt="Build Status">
 </a>
+<a href="https://addons.mozilla.org/fr/firefox/addon/gitmoji-browser-extension/?src=search">
+  <img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/{9e4aa2fd-a458-494a-a674-06541e2229ee}">
+</a>
 <a href="https://chrome.google.com/webstore/detail/gitmoji-browser-extension/lkjogeoldakjceempbkdahkojohmbaja">
   <img src="https://img.shields.io/chrome-web-store/v/lkjogeoldakjceempbkdahkojohmbaja" alt="Chrome Web Store">
 </a>
