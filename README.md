@@ -19,6 +19,12 @@ The [Gitmoji](https://gitmoji.carloscuesta.me/) extension to easily search and c
   <img src="https://user-images.githubusercontent.com/31794680/86494230-af1d2400-bd74-11ea-9c08-29238c853127.gif" alt="Screenshot - overview" width="320" />
 </p>
 
+## 🎉 Installation
+
+Install the extension according to your browser:
+- [Chrome web store](https://chrome.google.com/webstore/detail/gitmoji-browser-extension/lkjogeoldakjceempbkdahkojohmbaja)
+- [Firefox add-ons](https://addons.mozilla.org/fr/firefox/addon/gitmoji-browser-extension)
+
 ## ✨ Usage (keyboard)
 
 - toggle the extension button or with the shortcut <kbd>Alt+G</kbd> (<kbd>Opt+G</kbd> for mac)
@@ -26,7 +32,7 @@ The [Gitmoji](https://gitmoji.carloscuesta.me/) extension to easily search and c
 - use <kbd>tab</kbd> and <kbd>Shift+tab</kbd> to navigate between the shortcodes and emojis
 - press <kbd>Enter</kbd> to copy
 
-## 🔨 Install from sources
+## 🔨 Run the project
 
 ```sh
 yarn install
@@ -40,18 +46,17 @@ Load extension in the browser
 - in Firefox : [Temporary installation in Firefox](https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/)
 - in Chrome : [Create the manifest step](https://developer.chrome.com/extensions/getstarted#manifest)
 
-### 🚀 Build it
+### 🚀 Build the project
 
-```
-yarn install
+```sh
 yarn build
 ```
 
-## Contributing
+## 🦄 Contributing
 
-All remarks are welcome. Open an issue 😉
+All remarks are welcome. [Open an issue](https://github.com/johannchopin/gitmoji-browser-extension/issues/new/choose) 😉
 
-## License
+## 📄 License
 
 The code is available under [the MIT license](./LICENCE).
 
