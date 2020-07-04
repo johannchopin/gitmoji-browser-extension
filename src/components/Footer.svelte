@@ -11,13 +11,16 @@
   }
 
   .github {
-    margin-bottom: -0.1em; /* Little trick to center the link verticaly */
+    margin-bottom: -0.2em; /* Little trick to center the link verticaly */
   }
 </style>
 
 <footer>
   <nav>
-    <a href="https://github.com/johannchopin/gitmoji-browser-extension" target="_blank" class="github">
+    <a
+      href="https://github.com/johannchopin/gitmoji-browser-extension"
+      target="_blank"
+      class="github">
       GitHub
     </a>
   </nav>
