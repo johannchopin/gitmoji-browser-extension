@@ -34,7 +34,9 @@ yarn install && yarn start
 
 The development task will compile, watch and open the extension in a sandbox webpage. Your are ready to make your changes 👍
 
-3. Build the extension to test it in your browser
+## 🚀 Build gitmoji-browser-extension
+
+1. Build the extension to test it in your browser
 
 ```sh
 yarn watch
@@ -44,6 +46,13 @@ It will compile and watch the extension under the `dist/` folder. Just load this
 
 - in Firefox : [Temporary installation in Firefox](https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/)
 - in Chrome : See point **1** of [Create the manifest step](https://developer.chrome.com/extensions/getstarted#manifest)
+
+2. Build the extension
+```sh
+yarn build
+```
+
+It will create the extension as a zip file called `extension.zip` in the root of the project.
 
 ---
 
