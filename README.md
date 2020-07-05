@@ -32,31 +32,10 @@ Install the extension according to your browser:
 - use <kbd>tab</kbd> and <kbd>Shift+tab</kbd> to navigate between the shortcodes and emojis
 - press <kbd>Enter</kbd> to copy
 
-## 🔨 Run the extension
-
-```sh
-yarn install
-
-yarn start # open extension in the sandbox
-yarn watch # build into dist/ and watch
-```
-
-Load extension in the browser
-
-- in Firefox : [Temporary installation in Firefox](https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/)
-- in Chrome : [Create the manifest step](https://developer.chrome.com/extensions/getstarted#manifest)
-
-### 🚀 Build the extension
-
-```sh
-yarn build
-```
-
-It will build the extension with all the needed assets and create the `extension.zip` file at the root of the project.
-
 ## 🦄 Contributing
 
-All remarks are welcome. [Open an issue](https://github.com/johannchopin/gitmoji-browser-extension/issues/new/choose) 😉
+All remarks are welcome so feel free to [open an issue](https://github.com/johannchopin/gitmoji-browser-extension/issues/new/choose) 😉
+Wants to collaborate? Please read the [contributing guidelines](./CONTRIBUTING.md).
 
 ## 📄 License
 
