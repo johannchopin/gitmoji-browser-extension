@@ -5,13 +5,22 @@
   export let gitmojis
 
   let clicked = false
+  let saveAnimationDuration = 500
+
+  const restartSaveAnimation = () => {
+    clicked = false
+
+    setTimeout(() => {
+      clicked = true
+    }, 0)
+  }
 
   const animateSavedToClipboard = () => {
-    clicked = true
+    restartSaveAnimation()
 
     setTimeout(() => {
       clicked = false
-    }, 500)
+    }, saveAnimationDuration)
   }
 </script>
 
@@ -32,7 +41,7 @@
     background-color: #c5e763;
     opacity: 0.6;
     z-index: -1;
-    animation: saved 0.5s forwards;
+    animation: saved var(--saveAnimationDuration) forwards;
   }
 
   @keyframes saved {
@@ -62,5 +71,8 @@
 </ul>
 
 {#if clicked}
-  <span id="saveAnimationAnchor" />
+  <span 
+    id="saveAnimationAnchor" 
+    style="--saveAnimationDuration: {saveAnimationDuration}ms"
+  />
 {/if}
