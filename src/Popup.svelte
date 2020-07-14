@@ -1,30 +1,50 @@
 <script>
-  import { gitmojis } from 'gitmojis'
+  import { gitmojis as gitmojiList } from 'gitmojis'
   import Searchbar from './components/Searchbar'
   import GitmojiList from './components/GitmojiList'
   import Footer from './components/Footer'
   import logo from './assets/gitmoji-logo.svg'
 
-  let searchValue = ''
-  let matchingGitmojis
+  import { onGetTabInnerHTML } from './helpers'
 
-  const setSearchValue = (value) => {
-    searchValue = value.target.value
+  let gitmojis = gitmojiList
+  let filter = ''
+
+  $: filteredGitmojis = gitmojis.filter((gitmoji) => {
+    return (
+      gitmoji.description.toLowerCase().includes(filter)
+    || gitmoji.name.toLowerCase().includes(filter)
+    || gitmoji.code.includes(filter)
+    )
+  })
+
+  onGetTabInnerHTML((tabInnerText) => {
+    setGitmojisPresentInTab(getGitmojisPresentInTab(tabInnerText))
+  })
+
+  const getGitmojisPresentInTab = (tabInnerText) => {
+    return gitmojis.filter(gitmoji => {
+      const stringsToSearch = [gitmoji.code, gitmoji.emoji]
+
+      return stringsToSearch.some(stringToSearch => tabInnerText.includes(stringToSearch));
+    });
   }
 
-  const getFilteredGitmojis = (filter) => {
-    const loweredFilter = filter.toLowerCase()
+  const setGitmojisPresentInTab = (gitmojisPresentInTab) => {
+    const clonedGitmojis = [...gitmojis]
+    gitmojisPresentInTab.forEach(gitmojiPresentInTab => {
+      const gitmojiPresentInTabIndex = clonedGitmojis.findIndex(gitmoji => gitmoji.name === gitmojiPresentInTab.name);
+      gitmojiPresentInTab.present = true;
 
-    return gitmojis.filter((gitmoji) => {
-      return (
-        gitmoji.description.toLowerCase().includes(loweredFilter)
-      || gitmoji.name.toLowerCase().includes(loweredFilter)
-      || gitmoji.code.includes(loweredFilter)
-      )
-    })
+      clonedGitmojis[gitmojiPresentInTabIndex] = gitmojiPresentInTab;
+    });
+
+    gitmojis = clonedGitmojis
   }
 
-  $: matchingGitmojis = getFilteredGitmojis(searchValue)
+  const setFilter = (value) => {
+    filter = value.target.value.toLowerCase()
+  }
 </script>
 
 <style>
@@ -70,9 +90,9 @@
   <a href="https://gitmoji.carloscuesta.me/" target="_blank" class="gitmoji-logo">
     <img src={logo} alt="Gitmoji logo" />
   </a>
-  <Searchbar on:input={setSearchValue} />
+  <Searchbar on:input={setFilter} />
 </header>
 
-<GitmojiList gitmojis={matchingGitmojis} />
+<GitmojiList gitmojis={filteredGitmojis} />
 
 <Footer />
