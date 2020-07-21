@@ -19,7 +19,7 @@
     "lint": "yarn eslint ./src"
   },
   "dependencies": {
-    "gitmojis": "2.0.0",
+    "gitmojis": "2.1.0",
     "svelte": "3.23.2"
   },
   "devDependencies": {
