@@ -81,6 +81,7 @@
     border-radius: 4px;
     background-color: var(--color);
     animation: 0.15s slideRight;
+    z-index: -1;
   }
 
   @keyframes slideRight {
