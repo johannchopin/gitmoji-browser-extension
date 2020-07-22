@@ -20,6 +20,7 @@
   "rules": {
     "eol-last": ["error", "always"],
     "indent": ["warn", 2],
+    "no-param-reassign": "off",
     "semi": ["error", "never"]
    }
 }
