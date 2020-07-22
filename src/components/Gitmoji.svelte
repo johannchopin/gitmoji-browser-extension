@@ -97,6 +97,7 @@
   :global(.gitmoji .eye) {
     width: 1.3em;
     opacity: 0.3;
+    cursor: help;
   }
 
   @keyframes slideRight {
@@ -146,7 +147,9 @@
 
   <div class="indicator-group">
     {#if present}
-      <Icon name='eye' class='eye' />
+      <div title="gitmoji appears in the page">
+        <Icon name='eye' class='eye' />            
+      </div>
     {/if}
   </div>
 </li>
