@@ -29,18 +29,18 @@
     return gitmojis.filter(gitmoji => {
       const stringsToSearch = [gitmoji.code, gitmoji.emoji]
 
-      return stringsToSearch.some(stringToSearch => tabInnerText.includes(stringToSearch));
-    });
+      return stringsToSearch.some(stringToSearch => tabInnerText.includes(stringToSearch))
+    })
   }
 
   const setGitmojisPresentInTab = (gitmojisPresentInTab) => {
     const clonedGitmojis = [...gitmojis]
     gitmojisPresentInTab.forEach(gitmojiPresentInTab => {
-      const gitmojiPresentInTabIndex = clonedGitmojis.findIndex(gitmoji => gitmoji.name === gitmojiPresentInTab.name);
-      gitmojiPresentInTab.present = true;
+      const gitmojiPresentInTabIndex = clonedGitmojis.findIndex(gitmoji => gitmoji.name === gitmojiPresentInTab.name)
+      gitmojiPresentInTab.present = true
 
-      clonedGitmojis[gitmojiPresentInTabIndex] = gitmojiPresentInTab;
-    });
+      clonedGitmojis[gitmojiPresentInTabIndex] = gitmojiPresentInTab
+    })
 
     gitmojis = clonedGitmojis
   }
