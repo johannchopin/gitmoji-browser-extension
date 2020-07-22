@@ -1,36 +1,20 @@
 <script>
   import eye from './icons/eye.svg'
 
-  export let name
-  export { className as class }
-  
   let className = ''
   let icon
 
-  $: switch (name) {
-  case 'eye':
-    icon = eye
-    break
-  
-  default:
-    break<script>
-  import eye from './icons/eye.svg'
-
-  export let name;
-  export { className as class };
-  
-  let className = '';
-  let icon;
+  export let name
+  export { className as class }
 
   $: switch (name) {
     case 'eye':
       icon = eye
-      break;
+      break
   
     default:
-      break;
+      break
   }
-  
 </script>
 
 <style>

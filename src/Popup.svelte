@@ -19,10 +19,10 @@
   })
 
   // filter gitmojis to first have the ones present in tab
-  $: filteredGitmojis = gitmojis.sort((gitmojiA, gitmojiB) => (!gitmojiA.present && gitmojiB.present ? 1 : -1))
+  $: filteredGitmojis = gitmojis.sort((gitmojiA, gitmojiB) => {
+    const shouldBeInverted = !gitmojiA.present && gitmojiB.present
 
-  onGetTabInnerHTML((tabInnerText) => {
-    setGitmojisPresentInTab(getGitmojisPresentInTab(tabInnerText))
+    return shouldBeInverted ? 1 : -1
   })
 
   const getGitmojisPresentInTab = (tabInnerText) => {
@@ -36,7 +36,9 @@
   const setGitmojisPresentInTab = (gitmojisPresentInTab) => {
     const clonedGitmojis = [...gitmojis]
     gitmojisPresentInTab.forEach(gitmojiPresentInTab => {
-      const gitmojiPresentInTabIndex = clonedGitmojis.findIndex(gitmoji => gitmoji.name === gitmojiPresentInTab.name)
+      const gitmojiPresentInTabIndex = clonedGitmojis.findIndex(gitmoji => {
+        return gitmoji.name === gitmojiPresentInTab.name
+      })
       gitmojiPresentInTab.present = true
 
       clonedGitmojis[gitmojiPresentInTabIndex] = gitmojiPresentInTab
@@ -44,6 +46,10 @@
 
     gitmojis = clonedGitmojis
   }
+
+  onGetTabInnerHTML((tabInnerText) => {
+    setGitmojisPresentInTab(getGitmojisPresentInTab(tabInnerText))
+  })
 
   const setFilter = (value) => {
     filter = value.target.value.toLowerCase()
