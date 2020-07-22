@@ -19,7 +19,7 @@
   })
 
   // filter gitmojis to first have the ones present in tab
-  $: filteredGitmojis = gitmojis.sort(gitmoji => (!gitmoji.present ? 1 : -1))
+  $: filteredGitmojis = gitmojis.sort((gitmojiA, gitmojiB) => (!gitmojiA.present && gitmojiB.present ? 1 : -1))
 
   onGetTabInnerHTML((tabInnerText) => {
     setGitmojisPresentInTab(getGitmojisPresentInTab(tabInnerText))
