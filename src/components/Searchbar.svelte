@@ -16,6 +16,6 @@
 <input
   maxlength="70"
   type="text"
-  placeholder="Search your emoji..."
+  placeholder="Search your gitmoji..."
   autofocus
   on:input />
