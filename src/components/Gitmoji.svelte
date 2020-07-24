@@ -1,6 +1,9 @@
 <script>
+  import Icon from './Icon/Icon'
+
   export let code
   export let emoji
+  export let present = false
   export let color
   export let onSave
 
@@ -22,6 +25,7 @@
   }
 
   .gitmoji {
+    position: relative;
     display: flex;
     margin: 0.5em;
     box-shadow: 0 1px 2px 0 rgba(168, 182, 191, 0.6);
@@ -84,6 +88,19 @@
     z-index: -1;
   }
 
+  .indicator-group {
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  :global(.gitmoji .eye) {
+    width: 1.3em;
+    opacity: 0.3;
+    cursor: help;
+  }
+
   @keyframes slideRight {
     from {
       width: 0em;
@@ -128,4 +145,12 @@
   <button class="code" on:click={copyToClipboard(code)}>
     <span>{code}</span>
   </button>
+
+  <div class="indicator-group">
+    {#if present}
+      <div title="this gitmoji appears in the page">
+        <Icon name='eye' class='eye' />            
+      </div>
+    {/if}
+  </div>
 </li>

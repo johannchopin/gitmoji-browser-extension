@@ -61,12 +61,14 @@
 </style>
 
 <ul id="gitmojiList">
-  {#each gitmojis as { name, code, description, emoji }}
+  {#each gitmojis as { name, code, description, emoji, present }}
     <Gitmoji
       {code}
       {emoji}
+      {present}
       color={gitmojiColor[name]}
-      onSave={animateSavedToClipboard} />
+      onSave={animateSavedToClipboard} 
+    />
   {/each}
 </ul>
 
