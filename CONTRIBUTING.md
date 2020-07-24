@@ -9,7 +9,7 @@ This project uses [Svelte](https://svelte.dev/) to create the interface and is b
 ## 🌱 How to submit a pull request?
 
 1. Fork this repository.
-2. Create a new feature branch starting from `develop` (⚠️ not `master`). (Eg: `feature/improve-footer-design`)
+2. Create a new feature branch. (Eg: `feature/improve-footer-design`)
 3. Make your changes.
 4. Make a little check using `yarn lint`
 5. Commit your changes using the [gitmoji](https://gitmoji.carloscuesta.me/) convention.
