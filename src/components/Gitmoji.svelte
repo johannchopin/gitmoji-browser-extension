@@ -147,7 +147,7 @@
 
   <div class="indicator-group">
     {#if present}
-      <div title="gitmoji appears in the page">
+      <div title="this gitmoji appears in the page">
         <Icon name='eye' class='eye' />            
       </div>
     {/if}
