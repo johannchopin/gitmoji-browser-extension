@@ -1,5 +1,5 @@
 <script>
-  import { gitmojis } from 'gitmojis'
+  import { gitmojis as gitmojisList } from 'gitmojis'
   import Searchbar from './components/Searchbar'
   import GitmojiList from './components/GitmojiList'
   import Footer from './components/Footer'
@@ -7,6 +7,7 @@
 
   import { onGetTabInnerHTML } from './helpers'
 
+  let gitmojis = gitmojisList
   let filter = ''
 
   const getGitmojiWords = (gitmoji) => {
