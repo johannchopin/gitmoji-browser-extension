@@ -10,20 +10,38 @@
   let gitmojis = gitmojiList
   let filter = ''
 
-  $: filteredGitmojis = gitmojis.filter((gitmoji) => {
-    return (
-      gitmoji.description.toLowerCase().includes(filter)
-    || gitmoji.name.toLowerCase().includes(filter)
-    || gitmoji.code.includes(filter)
-    )
-  })
+  const getWordsToMatch = (gitmoji) => {
+    const getCodeWithoutColon = (code) => {
+      return code.slice(1, -1)
+    }
 
-  // filter gitmojis to first have the ones present in tab
-  $: filteredGitmojis = gitmojis.sort((gitmojiA, gitmojiB) => {
-    const shouldBeInverted = !gitmojiA.present && gitmojiB.present
+    const descriptionWords = gitmoji.description.toLowerCase().split(' ')
+    const codeWords = getCodeWithoutColon(gitmoji.code).split('_')
 
-    return shouldBeInverted ? 1 : -1
-  })
+    return [...descriptionWords, ...codeWords, gitmoji.name]
+  }
+
+  const getFilteredGitmojis = (gitmojis, filter) => {
+    let filteredGitmojis = gitmojis
+
+    // filter according to filter
+    if (filter !== '') {
+      filteredGitmojis = gitmojis.filter((gitmoji) => {
+        return getWordsToMatch(gitmoji).some(wordToMatch => wordToMatch.includes(filter))
+      })  
+    }
+
+    // filter according to presence in tab
+    filteredGitmojis = filteredGitmojis.sort((gitmojiA, gitmojiB) => {
+      const shouldBeInverted = !gitmojiA.present && gitmojiB.present
+
+      return shouldBeInverted ? 1 : -1
+    })
+
+    return filteredGitmojis
+  }
+
+  $: filteredGitmojis = getFilteredGitmojis(gitmojis, filter)
 
   const getGitmojisPresentInTab = (tabInnerText) => {
     return gitmojis.filter(gitmoji => {
