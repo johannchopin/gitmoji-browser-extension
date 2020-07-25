@@ -10,7 +10,7 @@
   let gitmojis = gitmojiList
   let filter = ''
 
-  const getWordsToMatch = (gitmoji) => {
+  const getGitmojiWords = (gitmoji) => {
     const getCodeWithoutColon = (code) => {
       return code.slice(1, -1)
     }
@@ -22,12 +22,19 @@
   }
 
   const getFilteredGitmojis = (gitmojis, filter) => {
+    const wordsInFilter = filter.trim().match(/[^ ]+/g)
     let filteredGitmojis = gitmojis
 
+    const gitmojiMatchAllWordsInFilter = (gitmoji, wordsInFilter) => {
+      return !wordsInFilter.some(wordInFilter => {
+        return !getGitmojiWords(gitmoji).some(gitmojiWord => gitmojiWord.startsWith(wordInFilter))
+      })
+    }
+
     // filter according to filter
-    if (filter !== '') {
+    if (wordsInFilter !== null) {
       filteredGitmojis = gitmojis.filter((gitmoji) => {
-        return getWordsToMatch(gitmoji).some(wordToMatch => wordToMatch.includes(filter))
+        return gitmojiMatchAllWordsInFilter(gitmoji, wordsInFilter)
       })  
     }
 
