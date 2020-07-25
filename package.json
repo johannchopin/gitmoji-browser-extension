@@ -20,7 +20,8 @@
   },
   "dependencies": {
     "gitmojis": "2.1.0",
-    "svelte": "3.23.2"
+    "svelte": "3.23.2",
+    "svelte-portal": "^0.1.0"
   },
   "devDependencies": {
     "@babel/polyfill": "7.10.4",
