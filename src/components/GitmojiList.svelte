@@ -1,4 +1,5 @@
 <script>
+  import Portal from 'svelte-portal'
   import Gitmoji from './Gitmoji'
   import gitmojiColor from '../data/gitmojiColors.json'
 
@@ -36,7 +37,7 @@
   #saveAnimationAnchor {
     position: absolute;
     bottom: 0;
-    height: 1.7em; /* Approximative size of the Footer */
+    height: 100%;
     width: 100%;
     background-color: #c5e763;
     opacity: 0.6;
@@ -73,8 +74,10 @@
 </ul>
 
 {#if clicked}
-  <span 
-    id="saveAnimationAnchor" 
-    style="--saveAnimationDuration: {saveAnimationDuration}ms"
-  />
+  <Portal target="footer">
+    <span 
+      id="saveAnimationAnchor" 
+      style="--saveAnimationDuration: {saveAnimationDuration}ms"
+    />
+  </Portal>
 {/if}

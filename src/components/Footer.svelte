@@ -1,4 +1,8 @@
 <style>
+  footer {
+    position: relative;
+  }
+
   a {
     color: black;
     text-decoration: none;
