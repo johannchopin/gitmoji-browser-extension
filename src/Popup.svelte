@@ -1,5 +1,5 @@
 <script>
-  import { gitmojis as gitmojiList } from 'gitmojis'
+  import { gitmojis as gitmojisList } from 'gitmojis'
   import Searchbar from './components/Searchbar'
   import GitmojiList from './components/GitmojiList'
   import Footer from './components/Footer'
@@ -7,29 +7,57 @@
 
   import { onGetTabInnerHTML } from './helpers'
 
-  let gitmojis = gitmojiList
+  let gitmojis = gitmojisList
   let filter = ''
 
-  $: filteredGitmojis = gitmojis.filter((gitmoji) => {
-    return (
-      gitmoji.description.toLowerCase().includes(filter)
-    || gitmoji.name.toLowerCase().includes(filter)
-    || gitmoji.code.includes(filter)
-    )
-  })
+  const getGitmojiWords = (gitmoji) => {
+    const getCodeWithoutColon = (code) => {
+      return code.slice(1, -1)
+    }
 
-  // filter gitmojis to first have the ones present in tab
-  $: filteredGitmojis = gitmojis.sort((gitmojiA, gitmojiB) => {
-    const shouldBeInverted = !gitmojiA.present && gitmojiB.present
+    const descriptionWords = gitmoji.description.toLowerCase().split(' ')
+    const codeWords = getCodeWithoutColon(gitmoji.code).split('_')
 
-    return shouldBeInverted ? 1 : -1
-  })
+    return [...descriptionWords, ...codeWords, gitmoji.name]
+  }
+
+  const getFilteredGitmojis = (gitmojisToFilter, filterToApply) => {
+    const wordsInFilter = filterToApply.trim().match(/[^ ]+/g)
+
+    const gitmojiMatchAllWordsInFilter = (gitmoji, words) => {
+      return !words.some(wordInFilter => {
+        return !getGitmojiWords(gitmoji).some(gitmojiWord => {
+          return gitmojiWord.startsWith(wordInFilter)
+        })
+      })
+    }
+
+    // filter according to filter
+    if (wordsInFilter !== null) {
+      gitmojisToFilter = gitmojis.filter((gitmoji) => {
+        return gitmojiMatchAllWordsInFilter(gitmoji, wordsInFilter)
+      })
+    }
+
+    // filter according to presence in tab
+    gitmojisToFilter = gitmojisToFilter.sort((gitmojiA, gitmojiB) => {
+      const shouldBeInverted = !!(!gitmojiA.present && gitmojiB.present) // use !! to cast undefined to boolean
+
+      return shouldBeInverted ? 1 : -1
+    })
+
+    return gitmojisToFilter
+  }
+
+  $: filteredGitmojis = getFilteredGitmojis(gitmojis, filter)
 
   const getGitmojisPresentInTab = (tabInnerText) => {
     return gitmojis.filter(gitmoji => {
       const stringsToSearch = [gitmoji.code, gitmoji.emoji]
 
-      return stringsToSearch.some(stringToSearch => tabInnerText.includes(stringToSearch))
+      return stringsToSearch.some(stringToSearch => {
+        return tabInnerText.includes(stringToSearch)
+      })
     })
   }
 
