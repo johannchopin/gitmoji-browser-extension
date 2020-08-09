@@ -5,7 +5,7 @@
   import Footer from './components/Footer'
   import logo from './assets/gitmoji-logo.svg'
 
-  import { onGetTabInnerHTML } from './helpers'
+  import { onGetTabInnerHTML } from './helpers/browser'
 
   let gitmojis = gitmojisList
   let filter = ''
