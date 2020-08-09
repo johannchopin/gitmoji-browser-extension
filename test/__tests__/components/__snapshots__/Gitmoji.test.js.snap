@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Gitmoji /> snapshot should match snapshot 1`] = `
+<body>
+  <div>
+    <li
+      class="gitmoji"
+      style="--color: #ff7281;"
+    >
+      <button
+        class="emoji"
+      >
+        <span>
+          🎨
+        </span>
+      </button>
+       
+      <button
+        class="code"
+      >
+        <span>
+          :art:
+        </span>
+      </button>
+       
+      <div
+        class="indicator-group"
+      />
+    </li>
+  </div>
+  <div>
+    <li
+      class="gitmoji"
+      style="--color: #ff7281;"
+    >
+      <button
+        class="emoji"
+      >
+        <span>
+          🎨
+        </span>
+      </button>
+       
+      <button
+        class="code"
+      >
+        <span>
+          :art:
+        </span>
+      </button>
+       
+      <div
+        class="indicator-group"
+      />
+    </li>
+  </div>
+</body>
+`;
+
+exports[`<Gitmoji /> snapshot should match snapshot if is present 1`] = `
+<body>
+  <div>
+    <li
+      class="gitmoji"
+      style="--color: #ff7281;"
+    >
+      <button
+        class="emoji"
+      >
+        <span>
+          🎨
+        </span>
+      </button>
+       
+      <button
+        class="code"
+      >
+        <span>
+          :art:
+        </span>
+      </button>
+       
+      <div
+        class="indicator-group"
+      />
+    </li>
+  </div>
+  <div>
+    <li
+      class="gitmoji"
+      style="--color: #ff7281;"
+    >
+      <button
+        class="emoji"
+      >
+        <span>
+          🎨
+        </span>
+      </button>
+       
+      <button
+        class="code"
+      >
+        <span>
+          :art:
+        </span>
+      </button>
+       
+      <div
+        class="indicator-group"
+      >
+        <div
+          title="this gitmoji appears in the page"
+        >
+          <img
+            alt="icon: eye"
+            class="icon eye eye"
+          />
+        </div>
+      </div>
+    </li>
+  </div>
+</body>
+`;
