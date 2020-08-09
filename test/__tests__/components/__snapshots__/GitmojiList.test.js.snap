@@ -1,0 +1,2902 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GitmojiList /> should match snapshot 1`] = `
+<body>
+  <div>
+    <ul
+      id="gitmojiList"
+    >
+      <li
+        class="gitmoji"
+        style="--color: #ff7281;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🎨
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :art:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #40c4ff;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ⚡️
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :zap:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ff9d44;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔥
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :fire:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #8cd842;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🐛
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :bug:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #fb584a;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🚑
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :ambulance:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffe55f;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ✨
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :sparkles:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffce49;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            📝
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :pencil:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #00a9f0;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🚀
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :rocket:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #80deea;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            💄
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :lipstick:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #f74d5f;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🎉
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :tada:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #77e856;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ✅
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :white_check_mark:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffce49;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔒
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :lock:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #80deea;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔖
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :bookmark:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #536dfe;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🚨
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :rotating_light:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffb74d;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🚧
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :construction:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #c5e763;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            💚
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :green_heart:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ef5350;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ⬇️
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :arrow_down:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #00e676;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ⬆️
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :arrow_up:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #39c2f1;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            📌
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :pushpin:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #64b5f6;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            👷
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :construction_worker:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #cedae6;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            📈
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :chart_with_upwards_trend:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #77e856;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ♻️
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :recycle:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #00e676;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ➕
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :heavy_plus_sign:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ef5350;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ➖
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :heavy_minus_sign:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffc400;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔧
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :wrench:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffc400;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔨
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :hammer:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #e7f4ff;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🌐
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :globe_with_meridians:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffce49;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ✏️
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :pencil2:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #a78674;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            💩
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :poop:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #56d1d8;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ⏪
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :rewind:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #56d1d8;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔀
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :twisted_rightwards_arrows:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #fdd0ae;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            📦
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :package:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #c5e763;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            👽
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :alien:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ef584a;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🚚
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :truck:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #d9e3e8;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            📄
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :page_facing_up:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #f94f28;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            💥
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :boom:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ff5864;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🍱
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :bento:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #00b1fb;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ♿️
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :wheelchair:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffce49;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            💡
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :bulb:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #fbb64b;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🍻
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :beers:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #cedae6;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            💬
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :speech_balloon:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #c5e763;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🗃
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :card_file_box:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #23b4d2;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔊
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :loud_sound:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #e6ebef;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔇
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :mute:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffce49;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            👥
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :busts_in_silhouette:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffce49;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🚸
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :children_crossing:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffe55f;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🏗
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :building_construction:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #40c4ff;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            📱
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :iphone:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ff7281;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🤡
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :clown_face:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #77e856;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🥚
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :egg:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #8bdfe7;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🙈
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :see_no_evil:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #00a9f0;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            📸
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :camera_flash:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #7f39fb;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ⚗
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :alembic:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffe55f;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔍
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :mag:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #cb63e6;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🏷️
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :label:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #c5e763;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🌱
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :seedling:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffce49;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🚩
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :triangular_flag_on_post:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #c7cb12;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🥅
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :goal_net:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffdb3a;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            💫
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :dizzy:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #d9e3e8;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🗑
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :wastebasket:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+    </ul>
+     
+    
+  </div>
+  <div>
+    <ul
+      id="gitmojiList"
+    >
+      <li
+        class="gitmoji"
+        style="--color: #ff7281;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🎨
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :art:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #40c4ff;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ⚡️
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :zap:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ff9d44;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔥
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :fire:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #8cd842;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🐛
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :bug:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #fb584a;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🚑
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :ambulance:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffe55f;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ✨
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :sparkles:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffce49;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            📝
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :pencil:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #00a9f0;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🚀
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :rocket:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #80deea;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            💄
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :lipstick:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #f74d5f;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🎉
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :tada:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #77e856;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ✅
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :white_check_mark:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffce49;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔒
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :lock:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #80deea;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔖
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :bookmark:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #536dfe;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🚨
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :rotating_light:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffb74d;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🚧
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :construction:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #c5e763;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            💚
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :green_heart:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ef5350;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ⬇️
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :arrow_down:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #00e676;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ⬆️
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :arrow_up:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #39c2f1;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            📌
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :pushpin:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #64b5f6;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            👷
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :construction_worker:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #cedae6;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            📈
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :chart_with_upwards_trend:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #77e856;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ♻️
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :recycle:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #00e676;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ➕
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :heavy_plus_sign:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ef5350;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ➖
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :heavy_minus_sign:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffc400;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔧
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :wrench:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffc400;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔨
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :hammer:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #e7f4ff;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🌐
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :globe_with_meridians:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffce49;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ✏️
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :pencil2:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #a78674;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            💩
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :poop:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #56d1d8;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ⏪
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :rewind:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #56d1d8;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔀
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :twisted_rightwards_arrows:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #fdd0ae;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            📦
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :package:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #c5e763;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            👽
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :alien:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ef584a;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🚚
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :truck:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #d9e3e8;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            📄
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :page_facing_up:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #f94f28;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            💥
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :boom:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ff5864;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🍱
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :bento:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #00b1fb;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ♿️
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :wheelchair:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffce49;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            💡
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :bulb:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #fbb64b;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🍻
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :beers:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #cedae6;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            💬
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :speech_balloon:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #c5e763;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🗃
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :card_file_box:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #23b4d2;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔊
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :loud_sound:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #e6ebef;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔇
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :mute:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffce49;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            👥
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :busts_in_silhouette:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffce49;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🚸
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :children_crossing:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffe55f;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🏗
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :building_construction:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #40c4ff;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            📱
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :iphone:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ff7281;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🤡
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :clown_face:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #77e856;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🥚
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :egg:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #8bdfe7;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🙈
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :see_no_evil:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #00a9f0;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            📸
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :camera_flash:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #7f39fb;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ⚗
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :alembic:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffe55f;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔍
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :mag:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #cb63e6;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🏷️
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :label:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #c5e763;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🌱
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :seedling:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffce49;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🚩
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :triangular_flag_on_post:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #c7cb12;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🥅
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :goal_net:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffdb3a;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            💫
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :dizzy:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #d9e3e8;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🗑
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :wastebasket:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+    </ul>
+     
+    
+  </div>
+</body>
+`;
