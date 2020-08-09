@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should match snapshot 1`] = `
+<body>
+  <div>
+    <footer>
+      <nav>
+        <a
+          class="github"
+          href="https://github.com/johannchopin/gitmoji-browser-extension"
+          target="_blank"
+        >
+          GitHub
+        </a>
+      </nav>
+    </footer>
+  </div>
+</body>
+`;
