@@ -41,6 +41,17 @@ describe('<Gitmoji />', () => {
       await fireEvent.click(saveEmojiBtn)
 
       expect(clipboard.setClipboard).toHaveBeenCalledWith(gitmojiProps.emoji)
+      expect(onSaveSpy).toHaveBeenCalled()
+    })
+
+    it('should save shortcode in clipboard', async () => {
+      const { container } = wrapper
+      const saveShortcodeBtn = container.querySelector('button.code')
+
+      await fireEvent.click(saveShortcodeBtn)
+
+      expect(clipboard.setClipboard).toHaveBeenCalledWith(gitmojiProps.code)
+      expect(onSaveSpy).toHaveBeenCalled()
     })
   })
 })
