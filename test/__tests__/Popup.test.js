@@ -38,5 +38,5 @@ describe('<Popup />', () => {
 
       expect(footer).not.toBeNull()
     })
-  });
+  })
 })
