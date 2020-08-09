@@ -8,31 +8,35 @@ describe('<Popup />', () => {
     wrapper = render(Popup)
   })
 
-  it('should contain a header', () => {
-    const { container } = wrapper
-    expect(container).toContainHTML('<header>')
-  })
+  describe('DOM', () => {
 
-  it('should contain gitmoji logo', () => {
-    const { container } = wrapper
-    const imageLink = container.querySelector('header a')
-    const image = imageLink.querySelector('img')
+    it('should contain a header', () => {
+      const { container } = wrapper
 
-    expect(image).not.toBeNull()
-    expect(imageLink).toHaveAttribute('href', 'https://gitmoji.carloscuesta.me/')
-  })
+      expect(container).toContainHTML('<header>')
+    })
 
-  it('should contain a searchbar', () => {
-    const { container } = wrapper
-    const searchbar = container.querySelector('header input[type=text]')
+    it('should contain gitmoji logo', () => {
+      const { container } = wrapper
+      const imageLink = container.querySelector('header a')
+      const image = imageLink.querySelector('img')
 
-    expect(searchbar).not.toBeNull()
-  })
+      expect(image).not.toBeNull()
+      expect(imageLink).toHaveAttribute('href', 'https://gitmoji.carloscuesta.me/')
+    })
 
-  it('should contain a footer', () => {
-    const { container } = wrapper
-    const footer = container.querySelector('footer')
+    it('should contain a searchbar', () => {
+      const { container } = wrapper
+      const searchbar = container.querySelector('header input[type=text]')
 
-    expect(footer).not.toBeNull()
-  })
+      expect(searchbar).not.toBeNull()
+    })
+
+    it('should contain a footer', () => {
+      const { container } = wrapper
+      const footer = container.querySelector('footer')
+
+      expect(footer).not.toBeNull()
+    })
+  });
 })
