@@ -17,7 +17,7 @@
     "clean": "yarn rimraf ./dist extension.zip",
     "build": "yarn clean && yarn move:all && yarn parcel build './src/**/*.(js|html|png)' --no-source-maps && yarn node scripts/zipExtension.js",
     "lint": "yarn eslint ./src",
-    "test": "jest __tests__",
+    "test": "jest test",
     "test:watch": "npm run test -- --watch"
   },
   "dependencies": {
