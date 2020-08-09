@@ -1,5 +1,6 @@
 <script>
   import Icon from './Icon/Icon'
+  import { setClipboard } from '../helpers/clipboard'
 
   export let code
   export let emoji
@@ -8,7 +9,7 @@
   export let onSave
 
   const copyToClipboard = (value) => {
-    navigator.clipboard.writeText(value)
+    setClipboard(value)
     onSave()
   }
 </script>
