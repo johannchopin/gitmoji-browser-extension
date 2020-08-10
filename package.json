@@ -16,7 +16,9 @@
     "watch": "yarn move:all && yarn parcel watch './src/**/*.(js|html|png)' --public-url .",
     "clean": "yarn rimraf ./dist extension.zip",
     "build": "yarn clean && yarn move:all && yarn parcel build './src/**/*.(js|html|png)' --no-source-maps && yarn node scripts/zipExtension.js",
-    "lint": "yarn eslint ./src"
+    "lint": "yarn eslint ./src",
+    "test": "jest test",
+    "test:watch": "npm run test -- --watch"
   },
   "dependencies": {
     "gitmojis": "2.1.0",
@@ -24,11 +26,18 @@
     "svelte-portal": "^0.1.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.11.1",
     "@babel/polyfill": "7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@testing-library/jest-dom": "^5.11.2",
+    "@testing-library/svelte": "^3.0.0",
+    "babel-jest": "^26.2.2",
     "cpy-cli": "3.1.1",
     "eslint": "7.3.1",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-plugin-svelte3": "2.7.3",
+    "jest": "^26.2.2",
+    "jest-transform-svelte": "^2.1.1",
     "parcel": "1.12.4",
     "parcel-bundler": "1.12.4",
     "parcel-plugin-svelte": "4.0.6",

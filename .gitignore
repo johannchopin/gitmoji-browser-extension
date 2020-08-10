@@ -7,3 +7,4 @@ yarn.lock
 .cache
 .DS_Store
 extension.zip
+coverage
