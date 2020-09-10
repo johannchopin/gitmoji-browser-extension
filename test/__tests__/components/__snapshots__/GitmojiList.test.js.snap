@@ -152,7 +152,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
       </li>
       <li
         class="gitmoji"
-        style="--color: #ffce49;"
+        style="--color: #00e676;"
       >
         <button
           class="emoji"
@@ -166,7 +166,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="code"
         >
           <span>
-            :pencil:
+            :memo:
           </span>
         </button>
          
@@ -1600,7 +1600,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
       </li>
       <li
         class="gitmoji"
-        style="--color: #ffce49;"
+        style="--color: #00e676;"
       >
         <button
           class="emoji"
@@ -1614,7 +1614,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="code"
         >
           <span>
-            :pencil:
+            :memo:
           </span>
         </button>
          
