@@ -8,12 +8,36 @@ The [Gitmoji](https://gitmoji.carloscuesta.me/) extension to easily search and c
 <a href="https://travis-ci.org/johannchopin/gitmoji-browser-extension">
   <img src="https://travis-ci.org/johannchopin/gitmoji-browser-extension.svg?branch=master" alt="Build Status">
 </a>
-<a href="https://addons.mozilla.org/fr/firefox/addon/gitmoji-browser-extension/?src=search">
-  <img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/{9e4aa2fd-a458-494a-a674-06541e2229ee}">
-</a>
-<a href="https://chrome.google.com/webstore/detail/gitmoji-browser-extension/lkjogeoldakjceempbkdahkojohmbaja">
-  <img src="https://img.shields.io/chrome-web-store/v/lkjogeoldakjceempbkdahkojohmbaja" alt="Chrome Web Store">
-</a>
+
+<p align="center">
+<table align="center">
+  <tr>
+    <th>
+      <img alt="Mozilla icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg" width="30">
+    </th>
+    <th>
+      <img alt="Chome icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg" width="30">
+    </th>
+  </tr>
+  <tr>
+    <td>
+      <img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/{9e4aa2fd-a458-494a-a674-06541e2229ee}">
+    </td>
+    <td>
+      <img src="https://img.shields.io/chrome-web-store/v/lkjogeoldakjceempbkdahkojohmbaja" alt="Chrome Web Store">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img alt="Mozilla Add-on" src="https://img.shields.io/amo/users/%7B9e4aa2fd-a458-494a-a674-06541e2229ee%7D">
+    </td>
+    <td>
+      <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/users/lkjogeoldakjceempbkdahkojohmbaja">
+    </td>
+  </tr>
+</table>
+</p>
+
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/31794680/86494230-af1d2400-bd74-11ea-9c08-29238c853127.gif" alt="Screenshot - overview" width="320" />
