@@ -14,7 +14,6 @@
   }
 
   if (isInExtension) {
-    //chrome.storage.local.clear();
     chrome.storage.local.get([asClickedKey], (result) => {
       if (result[asClickedKey] === undefined) {
         asAlreadyClicked = false
