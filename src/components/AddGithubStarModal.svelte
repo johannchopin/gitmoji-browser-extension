@@ -1,4 +1,5 @@
 <script>
+  /* eslint-disable no-undef */
   import Modal from './Modal'
   import Icon from './Icon/Icon'
 
