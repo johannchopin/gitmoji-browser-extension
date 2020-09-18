@@ -9,15 +9,31 @@
   $: isModalOpen = !asAlreadyClicked
 
   const asClickedKey = 'has-clicked'
+  const openCounterKey = 'popup-open-counter'
+  const minOpenCounter = 5
 
-  const setAsClickedInStorage = () => {
+  const setAsClickedStorage = () => {
     chrome.storage.local.set({ [asClickedKey]: true })
   }
 
+  const setOpenCounterStorage = (count) => {
+    chrome.storage.local.set({ [openCounterKey]: count })
+  }
+
   if (isInExtension) {
-    chrome.storage.local.get([asClickedKey], (result) => {
-      if (result[asClickedKey] === undefined) {
-        asAlreadyClicked = false
+    chrome.storage.local.get([asClickedKey, openCounterKey], (result) => {
+      const asClicked = result[asClickedKey]
+      const openCounter = result[openCounterKey]
+
+      if (openCounter !== undefined) {
+        setOpenCounterStorage(openCounter + 1)
+
+        const shouldModalBeOpen = openCounter >= minOpenCounter && asClicked === undefined
+        if (shouldModalBeOpen) {
+          asAlreadyClicked = false
+        }
+      } else {
+        setOpenCounterStorage(1)
       }
     })
   }
@@ -33,7 +49,7 @@
   <a 
     href="https://github.com/johannchopin/gitmoji-browser-extension" 
     target="_blank"
-    on:click={setAsClickedInStorage}
+    on:click={setAsClickedStorage}
   >
     <Icon name='star' /> GitHub
   </a>
