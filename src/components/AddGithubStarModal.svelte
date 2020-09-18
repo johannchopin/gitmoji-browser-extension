@@ -37,13 +37,16 @@
       }
     })
   }
+
+  const closeModal = () => {
+    isModalOpen = false
+    setAsClickedStorage()
+  }
 </script>
 
 <Modal
   open={isModalOpen}
-  onClose={() => {
-    isModalOpen = false
-  }}
+  onClose={closeModal}
 >
   <h2>You like to use the extension? Then leave a star on GitHub 🎉</h2>
   <a 
