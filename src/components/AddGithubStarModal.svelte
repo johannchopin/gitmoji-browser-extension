@@ -18,7 +18,7 @@
       if (result[asClickedKey] === undefined) {
         asAlreadyClicked = false
       }
-    });    
+    })
   }
 </script>
 
