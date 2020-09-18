@@ -16,15 +16,19 @@ The [Gitmoji](https://gitmoji.carloscuesta.me/) extension to easily search and c
       <img alt="Mozilla icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg" width="30">
     </th>
     <th>
-      <img alt="Chome icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg" width="30">
+      <img alt="Chrome icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg" width="30">
     </th>
   </tr>
   <tr>
     <td>
-      <img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/{9e4aa2fd-a458-494a-a674-06541e2229ee}">
+      <a href="https://addons.mozilla.org/fr/firefox/addon/gitmoji-browser-extension">
+        <img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/{9e4aa2fd-a458-494a-a674-06541e2229ee}">
+      </a>
     </td>
     <td>
-      <img src="https://img.shields.io/chrome-web-store/v/lkjogeoldakjceempbkdahkojohmbaja" alt="Chrome Web Store">
+      <a href="https://chrome.google.com/webstore/detail/gitmoji-browser-extension/lkjogeoldakjceempbkdahkojohmbaja">
+        <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/lkjogeoldakjceempbkdahkojohmbaja" alt="Chrome Web Store">
+      </a>
     </td>
   </tr>
   <tr>
