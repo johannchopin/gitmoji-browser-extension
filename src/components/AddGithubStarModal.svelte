@@ -23,8 +23,8 @@
   }
 </script>
 
-<Modal 
-  open={isModalOpen} 
+<Modal
+  open={isModalOpen}
   onClose={() => {
     isModalOpen = false
   }}
