@@ -8,27 +8,27 @@
   let asAlreadyClicked = true
   $: isModalOpen = !asAlreadyClicked
 
-  const asClickedKey = 'has-clicked'
-  const openCounterKey = 'popup-open-counter'
-  const minOpenCounter = 5
+  const AS_CLICKED_KEY = 'has-clicked'
+  const OPEN_COUNTER_KEY = 'popup-open-counter'
+  const MIN_OPEN_COUNTER = 5
 
   const setAsClickedStorage = () => {
-    chrome.storage.local.set({ [asClickedKey]: true })
+    chrome.storage.local.set({ [AS_CLICKED_KEY]: true })
   }
 
   const setOpenCounterStorage = (count) => {
-    chrome.storage.local.set({ [openCounterKey]: count })
+    chrome.storage.local.set({ [OPEN_COUNTER_KEY]: count })
   }
 
   if (isInExtension) {
-    chrome.storage.local.get([asClickedKey, openCounterKey], (result) => {
-      const asClicked = result[asClickedKey]
-      const openCounter = result[openCounterKey]
+    chrome.storage.local.get([AS_CLICKED_KEY, OPEN_COUNTER_KEY], (result) => {
+      const asClicked = result[AS_CLICKED_KEY]
+      const openCounter = result[OPEN_COUNTER_KEY]
 
       if (openCounter !== undefined) {
         setOpenCounterStorage(openCounter + 1)
 
-        const shouldModalBeOpen = openCounter >= minOpenCounter && asClicked === undefined
+        const shouldModalBeOpen = openCounter >= MIN_OPEN_COUNTER && asClicked === undefined
         if (shouldModalBeOpen) {
           asAlreadyClicked = false
         }
