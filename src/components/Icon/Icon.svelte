@@ -1,5 +1,6 @@
 <script>
   import eye from './icons/eye.svg'
+  import star from './icons/star.svg'
 
   let className = ''
   let icon
@@ -10,6 +11,10 @@
   $: switch (name) {
     case 'eye':
       icon = eye
+      break
+
+    case 'star':
+      icon = star
       break
   
     default:

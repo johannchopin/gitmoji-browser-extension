@@ -3,6 +3,7 @@
   import Searchbar from './components/Searchbar'
   import GitmojiList from './components/GitmojiList'
   import Footer from './components/Footer'
+  import AddGithubStarModal from './components/AddGithubStarModal'
   import logo from './assets/gitmoji-logo.svg'
 
   import { onGetTabInnerHTML } from './helpers/browser'
@@ -102,6 +103,7 @@
   }
 
   :global(#popup-content) {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -133,3 +135,4 @@
 <GitmojiList gitmojis={filteredGitmojis} />
 
 <Footer />
+<AddGithubStarModal />
