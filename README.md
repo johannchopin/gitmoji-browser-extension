@@ -21,12 +21,12 @@ The [Gitmoji](https://gitmoji.carloscuesta.me/) extension to easily search and c
   </tr>
   <tr>
     <td>
-      <a href="https://addons.mozilla.org/fr/firefox/addon/gitmoji-browser-extension">
+      <a href="https://addons.mozilla.org/fr/firefox/addon/gitmoji-browser-extension" target="_blank">
         <img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/{9e4aa2fd-a458-494a-a674-06541e2229ee}">
       </a>
     </td>
     <td>
-      <a href="https://chrome.google.com/webstore/detail/gitmoji-browser-extension/lkjogeoldakjceempbkdahkojohmbaja">
+      <a href="https://chrome.google.com/webstore/detail/gitmoji-browser-extension/lkjogeoldakjceempbkdahkojohmbaja" target="_blank">
         <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/lkjogeoldakjceempbkdahkojohmbaja" alt="Chrome Web Store">
       </a>
     </td>
