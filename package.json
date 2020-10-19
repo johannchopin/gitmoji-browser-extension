@@ -23,7 +23,7 @@
   "dependencies": {
     "gitmojis": "3.0.0",
     "svelte": "3.23.2",
-    "svelte-portal": "^0.1.0"
+    "svelte-portal": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
