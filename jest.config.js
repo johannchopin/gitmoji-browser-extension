@@ -10,6 +10,8 @@ module.exports = {
   moduleFileExtensions: ['js', 'svelte'],
   bail: false,
   verbose: true,
-  transformIgnorePatterns: ['<rootDir>/node_modules/'],
+  transformIgnorePatterns: [
+    'node_modules/(?!(svelte-portal)/)'
+  ],
   setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect']
 }
