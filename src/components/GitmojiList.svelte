@@ -1,5 +1,5 @@
 <script>
-  import Portal from './Portal'
+  import Portal from 'svelte-portal'
   import Gitmoji from './Gitmoji'
   const gitmojiColor = require('../data/gitmojiColors.json')
 
