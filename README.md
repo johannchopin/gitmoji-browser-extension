@@ -9,7 +9,7 @@ The [Gitmoji](https://gitmoji.carloscuesta.me/) extension to easily search and c
   <img src="https://travis-ci.org/johannchopin/gitmoji-browser-extension.svg?branch=master" alt="Build Status">
 </a>
 <a href="https://semver.org/">
-  <img href="https://img.shields.io/badge/Versioning-SemVer-blue" alt="This projet uses SemVer for versioning"/>
+  <img src="https://img.shields.io/badge/Versioning-SemVer-blue" alt="This projet uses SemVer for versioning"/>
 </a>
 
 <p align="center">
