@@ -1,6 +1,6 @@
 # 😜 Gitmoji Browser Extension
 
-The [Gitmoji](https://gitmoji.carloscuesta.me/) extension to easily search and copy gitmojis 😜
+The [Gitmoji](https://gitmoji.dev/) extension to easily search and copy gitmojis 😜
 
 <a href="https://gitmoji.carloscuesta.me">
   <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
@@ -59,7 +59,7 @@ Install the extension according to your browser:
 ## ✨ Usage (keyboard)
 
 - toggle the extension button or use the shortcut <kbd>Alt+G</kbd> (<kbd>⌥+G</kbd> for mac)
-- search emoji names or descriptions (from the [website](https://gitmoji.carloscuesta.me/))
+- search emoji names or descriptions (from the [website](https://gitmoji.dev/))
 - use <kbd>tab</kbd> and <kbd>Shift+tab</kbd> to navigate between the shortcodes and emojis
 - press <kbd>Enter</kbd> to copy
 

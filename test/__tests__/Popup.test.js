@@ -21,7 +21,7 @@ describe('<Popup />', () => {
       const image = imageLink.querySelector('img')
 
       expect(image).not.toBeNull()
-      expect(imageLink).toHaveAttribute('href', 'https://gitmoji.carloscuesta.me/')
+      expect(imageLink).toHaveAttribute('href', 'https://gitmoji.dev/')
     })
 
     it('should contain a searchbar', () => {

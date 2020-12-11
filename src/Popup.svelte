@@ -126,7 +126,7 @@
 </style>
 
 <header>
-  <a href="https://gitmoji.carloscuesta.me/" target="_blank" class="gitmoji-logo">
+  <a href="https://gitmoji.dev/" target="_blank" class="gitmoji-logo">
     <img src={logo} alt="Gitmoji logo" />
   </a>
   <Searchbar on:input={setFilter} />
