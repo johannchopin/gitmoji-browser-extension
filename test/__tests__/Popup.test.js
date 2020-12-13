@@ -71,7 +71,7 @@ describe('<Popup />', () => {
     })
 
     describe('match by description', () => {
-      const gitmojisToMatch = ['🐛', '✏️', '💚', '🔒']
+      const gitmojisToMatch = ['🐛', '✏️', '💚', '🔒', '🩹', '🚨']
       let matchingGitmojis
 
       beforeEach(async () => {
@@ -81,8 +81,8 @@ describe('<Popup />', () => {
         matchingGitmojis = container.querySelectorAll('li.gitmoji')
       })
 
-      it('should contain 4 gitmoji', () => {
-        expect(matchingGitmojis.length).toBe(4)
+      it('should contain 6 gitmoji', () => {
+        expect(matchingGitmojis.length).toBe(6)
       })
 
       it('should contain the right gitmojis', () => {

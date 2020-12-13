@@ -1446,6 +1446,75 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
       </li>
+      <li
+        class="gitmoji"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🛂
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :passport_control:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🩹
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :adhesive_bandage:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🧐
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :monocle_face:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
     </ul>
      
     
@@ -2887,6 +2956,75 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         >
           <span>
             :wastebasket:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🛂
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :passport_control:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🩹
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :adhesive_bandage:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+      </li>
+      <li
+        class="gitmoji"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🧐
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :monocle_face:
           </span>
         </button>
          
