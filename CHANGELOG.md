@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.2] - 2020-12-11
+### ♻️ Changed
+- gitmoji's website link from gitmoji.carloscuesta.me to gitmoji.dev 
+- use [svelte-portal](https://github.com/romkor/svelte-portal) package
+
 ## [1.2.1] - 2020-09-19
 ### ✨ Added
 - modal asking the user to leave a star on GitHub  
@@ -40,7 +45,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]: https://github.com/johannchopin/gitmoji-browser-extension/compare/v1.2.1...HEAD
+[Unreleased]: https://github.com/johannchopin/gitmoji-browser-extension/compare/v1.2.2...HEAD
+[1.2.2]: https://github.com/johannchopin/gitmoji-browser-extension/releases/tag/v1.2.2
 [1.2.1]: https://github.com/johannchopin/gitmoji-browser-extension/releases/tag/v1.2.1
 [1.2.0]: https://github.com/johannchopin/gitmoji-browser-extension/releases/tag/v1.2.0
 [1.1.1]: https://github.com/johannchopin/gitmoji-browser-extension/releases/tag/v1.1.1
