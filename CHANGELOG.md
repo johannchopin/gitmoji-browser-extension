@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.5] - 2020-12-20
+### 🐛 Fixed
+- add missing colors
+
+
 ## [1.2.2] - 2020-12-11
 ### ♻️ Changed
 - gitmoji's website link from gitmoji.carloscuesta.me to gitmoji.dev 
