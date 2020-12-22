@@ -3,7 +3,6 @@ node_modules
 dist
 package-lock.json
 yarn-error.log
-yarn.lock
 .cache
 .DS_Store
 extension.zip

@@ -9,6 +9,11 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "14.x"
+      
+      - uses: actions/cache@v2
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
 
       - name: Run tests
         run: |
