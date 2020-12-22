@@ -11,7 +11,7 @@ This project uses [Svelte](https://svelte.dev/) to create the interface and is b
 1. Fork this repository.
 2. Create a new feature branch. (Eg: `feature/improve-footer-design`)
 3. Make your changes.
-4. Make a little check using `yarn lint`
+4. Make a little check using `yarn lint && yarn test`
 5. Commit your changes using the [gitmoji](https://gitmoji.dev/) convention.
 6. Submit your pull request.
 
