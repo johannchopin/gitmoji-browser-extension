@@ -21,6 +21,9 @@ The [Gitmoji](https://gitmoji.dev/) extension to easily search and copy gitmojis
     <th>
       <img alt="Chrome icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg" width="30">
     </th>
+    <th>
+      <img alt="Edge icon" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Microsoft_Edge_logo_%282019%29.svg/1920px-Microsoft_Edge_logo_%282019%29.svg.png" width="30">
+    </th>
   </tr>
   <tr>
     <td>
@@ -30,7 +33,12 @@ The [Gitmoji](https://gitmoji.dev/) extension to easily search and copy gitmojis
     </td>
     <td>
       <a href="https://chrome.google.com/webstore/detail/gitmoji-browser-extension/lkjogeoldakjceempbkdahkojohmbaja" target="_blank">
-        <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/lkjogeoldakjceempbkdahkojohmbaja" alt="Chrome Web Store">
+        <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/lkjogeoldakjceempbkdahkojohmbaja">
+      </a>
+    </td>
+    <td>
+      <a href="https://microsoftedge.microsoft.com/addons/detail/gitmoji-browser-extension/lbmcfpombfmfhgheofkfhmhnmcbomjdd" target="_blank">
+        <img alt="Edge Add-on" src="https://img.shields.io/badge/dynamic/json?label=edge%20add-on&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Flbmcfpombfmfhgheofkfhmhnmcbomjdd">
       </a>
     </td>
   </tr>
@@ -40,6 +48,9 @@ The [Gitmoji](https://gitmoji.dev/) extension to easily search and copy gitmojis
     </td>
     <td>
       <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/users/lkjogeoldakjceempbkdahkojohmbaja">
+    </td>
+    <td>
+      <i>not available<i>
     </td>
   </tr>
 </table>
@@ -55,6 +66,7 @@ The [Gitmoji](https://gitmoji.dev/) extension to easily search and copy gitmojis
 Install the extension according to your browser:
 - [Chrome web store](https://chrome.google.com/webstore/detail/gitmoji-browser-extension/lkjogeoldakjceempbkdahkojohmbaja)
 - [Firefox add-ons](https://addons.mozilla.org/fr/firefox/addon/gitmoji-browser-extension)
+- [Edge add-ons](https://microsoftedge.microsoft.com/addons/detail/gitmoji-browser-extension/lbmcfpombfmfhgheofkfhmhnmcbomjdd)
 
 ## ✨ Usage (keyboard)
 

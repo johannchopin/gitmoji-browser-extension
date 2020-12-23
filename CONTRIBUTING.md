@@ -46,6 +46,7 @@ It will compile and watch the extension under the `dist/` folder. Just load this
 
 - in Firefox : [Temporary installation in Firefox](https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/)
 - in Chrome : See point **1** of [Create the manifest step](https://developer.chrome.com/extensions/getstarted#manifest)
+- in Microsoft Edge: Same process than for Chrome
 
 2. Build the extension
 ```sh
