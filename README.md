@@ -27,7 +27,7 @@ The [Gitmoji](https://gitmoji.dev/) extension to easily search and copy gitmojis
   </tr>
   <tr>
     <td>
-      <a href="https://addons.mozilla.org/fr/firefox/addon/gitmoji-browser-extension" target="_blank">
+      <a href="https://addons.mozilla.org/en-US/firefox/addon/gitmoji-browser-extension/" target="_blank">
         <img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/{9e4aa2fd-a458-494a-a674-06541e2229ee}">
       </a>
     </td>
@@ -65,7 +65,7 @@ The [Gitmoji](https://gitmoji.dev/) extension to easily search and copy gitmojis
 
 Install the extension according to your browser:
 - [Chrome web store](https://chrome.google.com/webstore/detail/gitmoji-browser-extension/lkjogeoldakjceempbkdahkojohmbaja)
-- [Firefox add-ons](https://addons.mozilla.org/fr/firefox/addon/gitmoji-browser-extension)
+- [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/addon/gitmoji-browser-extension/)
 - [Edge add-ons](https://microsoftedge.microsoft.com/addons/detail/gitmoji-browser-extension/lbmcfpombfmfhgheofkfhmhnmcbomjdd)
 
 ## ✨ Usage (keyboard)
