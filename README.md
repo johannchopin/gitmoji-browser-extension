@@ -5,9 +5,6 @@ The [Gitmoji](https://gitmoji.dev/) extension to easily search and copy gitmojis
 <a href="https://gitmoji.carloscuesta.me">
   <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
 </a>
-<a href="https://travis-ci.org/johannchopin/gitmoji-browser-extension">
-  <img src="https://travis-ci.org/johannchopin/gitmoji-browser-extension.svg?branch=master" alt="Build Status">
-</a>
 <a href="https://semver.org/">
   <img src="https://img.shields.io/badge/Versioning-SemVer-blue" alt="This projet uses SemVer for versioning"/>
 </a>
