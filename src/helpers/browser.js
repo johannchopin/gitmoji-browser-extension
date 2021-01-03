@@ -5,3 +5,7 @@ export const onGetTabInnerHTML = (callback) => {
       (results) => { callback(results[0]) })
   }
 }
+
+export const isInExtension = () => {
+  return typeof chrome !== 'undefined' && chrome.tabs !== undefined
+}
