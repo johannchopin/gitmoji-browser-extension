@@ -84,15 +84,6 @@
 </script>
 
 <style>
-  header {
-    display: flex;
-    max-width: 100%;
-    box-sizing: border-box;
-    justify-content: space-between;
-    background-color: var(--color-primary);
-    padding: 0.5em 0.5em 0.5em 1em;
-  }
-
   .gitmoji-logo {
     min-width: 30%;
     margin-right: 1em;

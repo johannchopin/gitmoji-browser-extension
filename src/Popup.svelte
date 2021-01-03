@@ -2,6 +2,7 @@
   import { page } from './stores'
 
   import Home from './pages/Home'
+  import Settings from './pages/Settings'
   import Footer from './components/Footer'
   import AddGithubStarModal from './components/AddGithubStarModal'
 </script>
@@ -30,10 +31,21 @@
     width: 300px;
     height: 245px;
   }
+
+  :global(header) {
+    display: flex;
+    max-width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color: var(--color-primary);
+    padding: 0.5em 0.5em 0.5em 1em;
+  }
 </style>
 
 {#if $page === 'home'}
   <Home />
+{:else if $page === 'settings'}
+  <Settings />
 {/if}
 
 <Footer />
