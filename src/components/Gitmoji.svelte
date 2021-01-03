@@ -76,17 +76,21 @@
     box-shadow: 0 4px rgba(var(--color), 0.6);
     border-bottom: 4px transparent;
   }
-  .code:hover span::before,
-  .code:focus span::before {
+  .code span::before {
     position: absolute;
     content: "";
-    width: 100%;
+    width: 0;
     margin-top: 1em; /* put it under the text */
     height: 0.2em;
     border-radius: 4px;
     background-color: var(--color);
-    animation: 0.15s slideRight;
+    transition: width 0.15s;
     z-index: -1;
+  }
+
+  .code:hover span::before,
+  .code:focus span::before {
+    width: 100%;
   }
 
   .indicator-group {
@@ -102,16 +106,10 @@
     cursor: help;
   }
 
-  @keyframes slideRight {
-    from {
-      width: 0em;
-    }
-  }
-
   /*
   This code has been obtained from:
   https://github.com/daneden/animate.css/blob/master/source/attention_seekers/bounce.css
-*/
+  */
   @keyframes bounce {
     from,
     20%,
