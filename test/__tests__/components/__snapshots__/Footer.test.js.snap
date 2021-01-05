@@ -5,6 +5,10 @@ exports[`<Footer /> should match snapshot 1`] = `
   <div>
     <footer>
       <nav>
+        <button>
+          settings
+        </button>
+         
         <a
           class="github"
           href="https://github.com/johannchopin/gitmoji-browser-extension"
