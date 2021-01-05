@@ -117,4 +117,12 @@ describe('<Popup />', () => {
       })
     })
   })
+
+  it('should go to settings page', async () => {
+    const { container } = wrapper
+    const goToSettingsBtn = container.querySelector('nav > button')
+
+    await fireEvent.click(goToSettingsBtn)
+    expect(container).toContainHTML('Settings')
+  })
 })
