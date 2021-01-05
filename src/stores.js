@@ -2,6 +2,7 @@ import { writable } from 'svelte/store'
 import { isInExtension } from './helpers/browser'
 
 const AUTO_CLOSE_AFTER_COPY_KEY = 'auto-close-after-copy'
+const THEME_KEY = 'theme'
 
 const createPageStore = () => {
   const { subscribe, set } = writable('settings')
@@ -20,12 +21,14 @@ const createUserSettingsStore = () => {
   // get settings from storage
   if (isInExtension()) {
     /* eslint-disable-next-line no-undef */
-    chrome.storage.sync.get([AUTO_CLOSE_AFTER_COPY_KEY], (result) => {
+    chrome.storage.sync.get([AUTO_CLOSE_AFTER_COPY_KEY, THEME_KEY], (result) => {
       const autoCloseAfterCopyValue = result[AUTO_CLOSE_AFTER_COPY_KEY] || false
+      const themeValue = result[THEME_KEY] || 'light'
 
       update(settings => {
         return {
           ...settings,
+          theme: themeValue,
           autoCloseAfterCopy: autoCloseAfterCopyValue
         }
       })
@@ -48,6 +51,11 @@ const createUserSettingsStore = () => {
       })
     },
     setTheme: (theme) => {
+      if (isInExtension()) {
+        /* eslint-disable-next-line no-undef */
+        chrome.storage.sync.set({ [THEME_KEY]: theme })
+      }
+
       update(settings => {
         return {
           ...settings,

@@ -4,6 +4,11 @@
 
   import ToggleButton from '../components/ToggleButton'
   import Icon from '../components/Icon/Icon'
+  import ThemeSwitch from '../components/ThemeSwitch'
+
+  const onThemeChange = (theme) => {
+    settings.setTheme(theme)
+  }
 </script>
 
 <style>
@@ -29,6 +34,7 @@
     flex-grow: 1;
     overflow-y: scroll;
     padding: 0 .5em;
+    padding-top: 20px;
   }
 
   :global(body.dark) .settings {
@@ -40,6 +46,10 @@
   .setting {
     display: flex;
     align-items: center;
+  }
+
+  .setting.theme {
+    justify-content: center;
   }
 
   .settings :global(.checkbox) {
@@ -61,6 +71,9 @@
 </header>
 
 <div class="settings">
+  <div class="setting theme">
+    <ThemeSwitch onChange={onThemeChange}/>
+  </div>
   <div class="setting">
     <ToggleButton 
       checked={$settings.autoCloseAfterCopy} 
