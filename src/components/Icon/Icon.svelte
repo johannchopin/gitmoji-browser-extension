@@ -10,8 +10,8 @@
 
   const icons = {
     'arrow-left': arrowLeft,
-    'eye': eye,
-    'star': star
+    eye,
+    star
   }
 </script>
 

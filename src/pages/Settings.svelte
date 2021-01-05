@@ -1,6 +1,5 @@
 <script>
   import { page, settings } from '../stores'
-  import { isInExtension } from '../helpers/browser'
 
   import ToggleButton from '../components/ToggleButton'
   import Icon from '../components/Icon/Icon'
@@ -77,7 +76,7 @@
   <div class="setting">
     <ToggleButton 
       checked={$settings.autoCloseAfterCopy} 
-        onClick={() => { 
+      onClick={() => {
         settings.setAutoCloseAfterCopy(!$settings.autoCloseAfterCopy)
       }}
     />
