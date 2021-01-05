@@ -47,6 +47,11 @@
     margin: 0;
   }
 
+  :global(body.dark) #gitmojiList {
+    color: white;
+    background-color: black;
+  }
+
   #saveAnimationAnchor {
     position: absolute;
     bottom: 0;
@@ -56,6 +61,10 @@
     opacity: 0.6;
     z-index: -1;
     animation: saved var(--saveAnimationDuration) forwards;
+  }
+
+  :global(body.dark) #saveAnimationAnchor {
+    background-color: #455a08;
   }
 
   @keyframes saved {

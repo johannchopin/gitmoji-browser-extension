@@ -33,6 +33,10 @@
     border-radius: 4px;
   }
 
+  :global(body.dark) .gitmoji {
+    box-shadow: 0 1px 2px 0 rgb(50, 50, 50);
+  }
+
   .emoji {
     font-size: 2em;
     margin: auto;
@@ -75,6 +79,7 @@
     background-color: rgba(var(--color), 0.3);
     box-shadow: 0 4px rgba(var(--color), 0.6);
     border-bottom: 4px transparent;
+    z-index: 1;
   }
   .code span::before {
     position: absolute;

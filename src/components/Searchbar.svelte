@@ -7,6 +7,11 @@
     box-shadow: 1px 1px 1px rgba(168, 182, 191, 0.6);
   }
 
+  :global(body.dark) input {
+    color: white;
+    background-color: black;
+  }
+
   input:focus {
     outline: none;
   }

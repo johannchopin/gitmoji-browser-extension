@@ -31,6 +31,12 @@
     padding: 0 .5em;
   }
 
+  :global(body.dark) .settings {
+    color: white;
+    background-color: black;
+  }
+
+
   .setting {
     display: flex;
     align-items: center;

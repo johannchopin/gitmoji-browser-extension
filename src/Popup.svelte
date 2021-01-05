@@ -1,10 +1,21 @@
 <script>
-  import { page } from './stores'
+  import { page, settings } from './stores'
 
   import Home from './pages/Home'
   import Settings from './pages/Settings'
   import Footer from './components/Footer'
   import AddGithubStarModal from './components/AddGithubStarModal'
+
+  const setThemeClassToBody = (theme) => {
+    const bodyClassList = document.body.classList
+    if (theme === 'dark') {
+      bodyClassList.add('dark')
+    } else {
+      bodyClassList.remove('dark')
+    }
+  }
+
+  $: setThemeClassToBody($settings.theme)
 </script>
 
 <style>
