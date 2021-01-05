@@ -5,7 +5,7 @@ const AUTO_CLOSE_AFTER_COPY_KEY = 'auto-close-after-copy'
 const THEME_KEY = 'theme'
 
 const createPageStore = () => {
-  const { subscribe, set } = writable('settings')
+  const { subscribe, set } = writable('home')
 
   return {
     subscribe,
