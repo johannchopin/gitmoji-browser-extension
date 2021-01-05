@@ -1,5 +1,6 @@
 <script>
   export let checked = false
+  export let onClick = () => {}
 </script>
 
 <style>
@@ -58,7 +59,7 @@
   }
 </style>
 
-<div class="checkbox">
+<div class="checkbox" on:click={onClick}>
   <input type="checkbox" checked={checked} />
   <label></label>
 </div>

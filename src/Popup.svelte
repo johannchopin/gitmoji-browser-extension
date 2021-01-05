@@ -37,6 +37,7 @@
     max-width: 100%;
     box-sizing: border-box;
     justify-content: space-between;
+    height: 40px;
     background-color: var(--color-primary);
     padding: 0.5em 0.5em 0.5em 1em;
   }
