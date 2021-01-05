@@ -9,3 +9,5 @@ export const onGetTabInnerHTML = (callback) => {
 export const isInExtension = () => {
   return typeof chrome !== 'undefined' && chrome.tabs !== undefined
 }
+
+export const closePopup = () => { window.close() }
