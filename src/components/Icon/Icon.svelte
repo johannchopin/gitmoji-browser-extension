@@ -4,26 +4,14 @@
   import arrowLeft from './icons/arrowLeft.svg'
 
   let className = ''
-  let icon
 
   export let name
   export { className as class }
 
-  $: switch (name) {
-    case 'eye':
-      icon = eye
-      break
-
-    case 'star':
-      icon = star
-      break
-
-    case 'arrow-left':
-      icon = arrowLeft
-      break
-
-    default:
-      break
+  const icons = {
+    'arrow-left': arrowLeft,
+    'eye': eye,
+    'star': star
   }
 </script>
 
@@ -34,4 +22,4 @@
 </style>
 
 
-<img src={icon} alt={`icon: ${name}`} class="icon {name} {className}" />
+<img src={icons[name]} alt={`icon: ${name}`} class="icon {name} {className}" />
