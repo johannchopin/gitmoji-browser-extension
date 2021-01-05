@@ -25,20 +25,15 @@
     margin-right: .3em;
   }
 
-  ul {
-    padding-inline-start: 0;
-  }
-
-  li {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-  }
-
   .settings {
     flex-grow: 1;
     overflow-y: scroll;
     padding: 0 .5em;
+  }
+
+  .setting {
+    display: flex;
+    align-items: center;
   }
 
   .settings :global(.checkbox) {
@@ -60,12 +55,13 @@
 </header>
 
 <div class="settings">
-  <ul>
-    <li>
-      <ToggleButton checked={$settings.autoCloseAfterCopy} onClick={() => { 
+  <div class="setting">
+    <ToggleButton 
+      checked={$settings.autoCloseAfterCopy} 
+        onClick={() => { 
         settings.setAutoCloseAfterCopy(!$settings.autoCloseAfterCopy)
-      }} />
-      <h2>Close extension after copying a gitmoji</h2>
-    </li>
-  </ul>
+      }}
+    />
+    <h2>Close extension after copying a gitmoji</h2>
+  </div>
 </div>
