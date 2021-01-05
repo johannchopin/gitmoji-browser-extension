@@ -30,7 +30,7 @@
     "@babel/polyfill": "7.12.1",
     "@babel/preset-env": "^7.11.0",
     "@testing-library/jest-dom": "^5.11.2",
-    "@testing-library/svelte": "^3.0.0",
+    "@testing-library/svelte": "^3.0.3",
     "babel-jest": "^26.2.2",
     "cpy-cli": "3.1.1",
     "eslint": "7.3.1",
