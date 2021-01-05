@@ -21,7 +21,7 @@ const createUserSettingsStore = () => {
   // get settings from storage
   if (isInExtension()) {
     /* eslint-disable-next-line no-undef */
-    chrome.storage.sync.get([AUTO_CLOSE_AFTER_COPY_KEY, THEME_KEY], (result) => {
+    chrome.storage.local.get([AUTO_CLOSE_AFTER_COPY_KEY, THEME_KEY], (result) => {
       const autoCloseAfterCopyValue = result[AUTO_CLOSE_AFTER_COPY_KEY] || false
       const themeValue = result[THEME_KEY] || 'light'
 
@@ -40,7 +40,7 @@ const createUserSettingsStore = () => {
     setAutoCloseAfterCopy: (value) => {
       if (isInExtension()) {
         /* eslint-disable-next-line no-undef */
-        chrome.storage.sync.set({ [AUTO_CLOSE_AFTER_COPY_KEY]: value })
+        chrome.storage.local.set({ [AUTO_CLOSE_AFTER_COPY_KEY]: value })
       }
 
       update(settings => {
@@ -53,7 +53,7 @@ const createUserSettingsStore = () => {
     setTheme: (theme) => {
       if (isInExtension()) {
         /* eslint-disable-next-line no-undef */
-        chrome.storage.sync.set({ [THEME_KEY]: theme })
+        chrome.storage.local.set({ [THEME_KEY]: theme })
       }
 
       update(settings => {
