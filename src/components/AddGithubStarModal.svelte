@@ -3,7 +3,7 @@
   import Modal from './Modal'
   import Icon from './Icon/Icon'
 
-  const isInExtension = typeof chrome !== 'undefined' && chrome.tabs !== undefined
+  import { isInExtension } from '../helpers/browser'
 
   let asAlreadyClicked = true
   $: isModalOpen = !asAlreadyClicked
@@ -20,7 +20,7 @@
     chrome.storage.local.set({ [OPEN_COUNTER_KEY]: count })
   }
 
-  if (isInExtension) {
+  if (isInExtension()) {
     chrome.storage.local.get([AS_CLICKED_KEY, OPEN_COUNTER_KEY], (result) => {
       const asClicked = result[AS_CLICKED_KEY]
       const openCounter = result[OPEN_COUNTER_KEY]

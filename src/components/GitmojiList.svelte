@@ -1,4 +1,7 @@
 <script>
+  import { settings } from '../stores'
+  import { closePopup } from '../helpers/browser'
+
   import Portal from 'svelte-portal'
   import Gitmoji from './Gitmoji'
   const gitmojiColor = require('../data/gitmojiColors.json')
@@ -6,7 +9,7 @@
   export let gitmojis
 
   let clicked = false
-  let saveAnimationDuration = 500
+  let SAVE_ANIMATION_DURATION = 500
 
   const restartSaveAnimation = () => {
     clicked = false
@@ -21,7 +24,17 @@
 
     setTimeout(() => {
       clicked = false
-    }, saveAnimationDuration)
+    }, SAVE_ANIMATION_DURATION)
+  }
+
+  const onGitmojiSave = () => {
+    animateSavedToClipboard()
+
+    if ($settings.autoCloseAfterCopy) {
+      setTimeout(() => {
+        closePopup()
+      }, 200)
+    }
   }
 </script>
 
@@ -34,6 +47,11 @@
     margin: 0;
   }
 
+  :global(body.dark) #gitmojiList {
+    color: white;
+    background-color: black;
+  }
+
   #saveAnimationAnchor {
     position: absolute;
     bottom: 0;
@@ -43,6 +61,10 @@
     opacity: 0.6;
     z-index: -1;
     animation: saved var(--saveAnimationDuration) forwards;
+  }
+
+  :global(body.dark) #saveAnimationAnchor {
+    background-color: #455a08;
   }
 
   @keyframes saved {
@@ -68,7 +90,7 @@
       {emoji}
       {present}
       color={gitmojiColor[name]}
-      onSave={animateSavedToClipboard} 
+      onSave={onGitmojiSave} 
     />
   {/each}
 </ul>
@@ -77,7 +99,7 @@
   <Portal target="footer">
     <span 
       id="saveAnimationAnchor" 
-      style="--saveAnimationDuration: {saveAnimationDuration}ms"
+      style="--saveAnimationDuration: {SAVE_ANIMATION_DURATION}ms"
     />
   </Portal>
 {/if}

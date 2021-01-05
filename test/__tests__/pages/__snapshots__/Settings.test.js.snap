@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Settings /> should match snapshot 1`] = `
+<body>
+  <div>
+    <header>
+      <h1>
+        <button>
+          <img
+            alt="icon: arrow-left"
+            class="icon arrow-left "
+          />
+        </button>
+        
+    Settings
+      </h1>
+    </header>
+     
+    <div
+      class="settings"
+    >
+      <div
+        class="setting theme"
+      >
+        <div
+          class="theme-switch"
+        >
+          <button
+            class="light"
+            type="button"
+          >
+            Light
+          </button>
+           
+          <button
+            class="dark"
+            type="button"
+          >
+            Dark
+          </button>
+        </div>
+      </div>
+       
+      <div
+        class="setting"
+      >
+        <div
+          class="checkbox"
+        >
+          <input
+            type="checkbox"
+          />
+           
+          <label />
+        </div>
+         
+        <h2>
+          Close extension after copying a gitmoji
+        </h2>
+      </div>
+    </div>
+  </div>
+</body>
+`;
