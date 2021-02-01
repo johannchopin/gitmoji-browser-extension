@@ -89,6 +89,7 @@
       {code}
       {emoji}
       {present}
+      {description}
       color={gitmojiColor[name]}
       onSave={onGitmojiSave} 
     />
