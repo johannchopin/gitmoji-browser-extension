@@ -2475,7 +2475,7 @@ concat-stream@~1.6.0:
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-confusing-browser-globals@^1.0.9:
+confusing-browser-globals@^1.0.10:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.10.tgz#30d1e7f3d1b882b25ec4933d1d1adac353d20a59"
   integrity sha512-gNld/3lySHwuhaVluJUKLePYirM3QNCKzVxqAdhJII9/WXKVX5PURzMVJspS1jTslSqjeuG4KMVTSouit5YPHA==
@@ -3275,13 +3275,13 @@ escodegen@~1.9.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-airbnb-base@14.2.0:
-  version "14.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-14.2.0.tgz#fe89c24b3f9dc8008c9c0d0d88c28f95ed65e9c4"
-  integrity sha512-Snswd5oC6nJaevs3nZoLSTvGJBvzTfnBqOIArkf3cbyTyq9UD79wOk8s+RiL6bhca0p/eRO6veczhf6A/7Jy8Q==
+eslint-config-airbnb-base@14.2.1:
+  version "14.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-14.2.1.tgz#8a2eb38455dc5a312550193b319cdaeef042cd1e"
+  integrity sha512-GOrQyDtVEc1Xy20U7vsB2yAoB4nBlfH5HZJeatRXHleO+OS5Ot+MWij4Dpltw4/DyIkqUfqz1epfhVR5XWWQPA==
   dependencies:
-    confusing-browser-globals "^1.0.9"
-    object.assign "^4.1.0"
+    confusing-browser-globals "^1.0.10"
+    object.assign "^4.1.2"
     object.entries "^1.1.2"
 
 eslint-plugin-svelte3@2.7.3:
@@ -5666,7 +5666,7 @@ object-visit@^1.0.0:
   dependencies:
     isobject "^3.0.0"
 
-object.assign@^4.1.0, object.assign@^4.1.1:
+object.assign@^4.1.0, object.assign@^4.1.1, object.assign@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/object.assign/-/object.assign-4.1.2.tgz#0ed54a342eceb37b38ff76eb831a0e788cb63940"
   integrity sha512-ixT2L5THXsApyiUPYKmW+2EHpXXe5Ii3M+f4e+aJFAHao5amFRW6J0OO6c/LU8Be47utCx2GL89hxGB6XSmKuQ==
@@ -5945,10 +5945,10 @@ parcel-plugin-svelte@4.0.6:
   resolved "https://registry.yarnpkg.com/parcel-plugin-svelte/-/parcel-plugin-svelte-4.0.6.tgz#65f3e9cbfb44f5b6db9e6c70c9cc54891297f4b1"
   integrity sha512-DMeu71qTrcLpSRhgGqAm1Seq+PBw+Aq0BuS2GIYwg8j2WIGo65oB4yRpPgcRQ0OVS1UUOiv8u64+AgiFzCpyOA==
 
-parcel-transformer-svelte@1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/parcel-transformer-svelte/-/parcel-transformer-svelte-1.0.8.tgz#38e5a9856a51d14e7d5b0dede082b309e41b948c"
-  integrity sha512-j9QvTsRu4AQ/49Y5WcvBuLti6WmB2Lc6KAmzqQn7pc722wf1W21S2PrEBCexZGxdL06ymJ07txSiyc74xDLTcw==
+parcel-transformer-svelte@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/parcel-transformer-svelte/-/parcel-transformer-svelte-1.1.0.tgz#163cbae777aeab425b550d40d2804d82b21975a6"
+  integrity sha512-0q1SgvvbwzokCg9UtyLwar1eMWEjuaMqXQV/utVh0jj1nzdsmtkXOYcb2n/WdZzE8h8Kh0q6YJoULys/0zy1mA==
   dependencies:
     "@parcel/plugin" "^2.0.0-beta.1"
     "@parcel/source-map" "^2.0.0-alpha.4.13"
@@ -7589,10 +7589,10 @@ svelte-portal@^2.0.0:
   resolved "https://registry.yarnpkg.com/svelte-portal/-/svelte-portal-2.1.1.tgz#7285d19cffffc25bd1d28f98fb5d8173643c326d"
   integrity sha512-B61Bem/3cqgPGVMRM09RhEmZKBGbv3EFVO15GWbFWltNy9dN6sdLK5rV5VEOdZRDNaqgYai9caCHMDuYMpW/1w==
 
-svelte-preprocess@3.9.11:
-  version "3.9.11"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-3.9.11.tgz#94f7abdfce79e828d350ae57be704d4293718b68"
-  integrity sha512-2LCIiNGSgxOwuQIw5J40cbisRQ3Acw3jPk6z4wbmSAQzc6NTpm7Ar/Awts3ekzadSFnkb2IG4yUprMT/Egjx6Q==
+svelte-preprocess@4.6.5:
+  version "4.6.5"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.6.5.tgz#65cd8e26241ce7e53a8c306472cefcb494a550f1"
+  integrity sha512-bVNq1seKfJlLKttWjhT55HBMz5WM8Ev5iidbu8qPD0B8+pHrsyg2QS2pZLQ6epU3GIKFfZzAlBQX+978GRHgkQ==
   dependencies:
     "@types/pug" "^2.0.4"
     "@types/sass" "^1.16.0"
