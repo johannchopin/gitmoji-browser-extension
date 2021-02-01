@@ -124,6 +124,10 @@
     z-index: 2;
   }
 
+  :global(body.dark) .description {
+    background-color: rgba(0, 0, 0, .8);
+  }
+
   .emoji:hover ~ .description,
   .emoji:focus ~ .description,
   .code:hover ~ .description,
