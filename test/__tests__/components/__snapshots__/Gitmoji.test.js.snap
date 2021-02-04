@@ -27,11 +27,6 @@ exports[`<Gitmoji /> snapshot should match snapshot 1`] = `
         class="indicator-group"
       />
        
-      <p
-        class="description"
-      >
-        Improve structure / format of the code.
-      </p>
     </li>
   </div>
   <div>
@@ -59,11 +54,6 @@ exports[`<Gitmoji /> snapshot should match snapshot 1`] = `
         class="indicator-group"
       />
        
-      <p
-        class="description"
-      >
-        Improve structure / format of the code.
-      </p>
     </li>
   </div>
 </body>
@@ -96,11 +86,6 @@ exports[`<Gitmoji /> snapshot should match snapshot if is present 1`] = `
         class="indicator-group"
       />
        
-      <p
-        class="description"
-      >
-        Improve structure / format of the code.
-      </p>
     </li>
   </div>
   <div>
@@ -137,11 +122,6 @@ exports[`<Gitmoji /> snapshot should match snapshot if is present 1`] = `
         </div>
       </div>
        
-      <p
-        class="description"
-      >
-        Improve structure / format of the code.
-      </p>
     </li>
   </div>
 </body>

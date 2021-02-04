@@ -30,11 +30,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Improve structure / format of the code.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -60,11 +55,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Improve performance.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -90,11 +80,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Remove code or files.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -120,11 +105,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Fix a bug.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -150,11 +130,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Critical hotfix.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -180,11 +155,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Introduce new features.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -210,11 +180,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update documentation.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -240,11 +205,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Deploy stuff.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -270,11 +230,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update the UI and style files.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -300,11 +255,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Begin a project.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -330,11 +280,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update tests.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -360,11 +305,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Fix security issues.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -390,11 +330,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Release / Version tags.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -420,11 +355,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Fix compiler / linter warnings.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -450,11 +380,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Work in progress.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -480,11 +405,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Fix CI Build.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -510,11 +430,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Downgrade dependencies.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -540,11 +455,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Upgrade dependencies.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -570,11 +480,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Pin dependencies to specific versions.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -600,11 +505,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update CI build system.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -630,11 +530,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update analytics or track code.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -660,11 +555,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Refactor code.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -690,11 +580,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add a dependency.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -720,11 +605,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Remove a dependency.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -750,11 +630,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update configuration files.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -780,11 +655,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update development scripts.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -810,11 +680,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Internationalization and localization.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -840,11 +705,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Fix typos.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -870,11 +730,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Write bad code that needs to be improved.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -900,11 +755,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Revert changes.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -930,11 +780,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Merge branches.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -960,11 +805,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update compiled files or packages.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -990,11 +830,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Update code due to external API changes.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1020,11 +855,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Move or rename resources (e.g.: files, paths, routes).
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1050,11 +880,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update license.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1080,11 +905,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Introduce breaking changes.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1110,11 +930,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update assets.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1140,11 +955,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Improve accessibility.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1170,11 +980,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update comments in source code.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1200,11 +1005,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Write code drunkenly.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1230,11 +1030,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update text and literals.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1260,11 +1055,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Perform database related changes.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1290,11 +1080,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update logs.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1320,11 +1105,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Remove logs.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1350,11 +1130,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update contributor(s).
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1380,11 +1155,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Improve user experience / usability.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1410,11 +1180,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Make architectural changes.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1440,11 +1205,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Work on responsive design.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1470,11 +1230,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Mock things.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1500,11 +1255,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update an easter egg.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1530,11 +1280,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update a .gitignore file.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1560,11 +1305,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update snapshots.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1590,11 +1330,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Perform experiments.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1620,11 +1355,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Improve SEO.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1650,11 +1380,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update types.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1680,11 +1405,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update seed files.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1710,11 +1430,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add, update, or remove feature flags.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1740,11 +1455,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Catch errors.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1770,11 +1480,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update animations and transitions.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1800,11 +1505,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Deprecate code that needs to be cleaned up.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1830,11 +1530,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Work on code related to authorization, roles and permissions.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1860,11 +1555,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Simple fix for a non-critical issue.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1890,11 +1580,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Data exploration/inspection.
-        </p>
       </li>
     </ul>
      
@@ -1928,11 +1613,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Improve structure / format of the code.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1958,11 +1638,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Improve performance.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -1988,11 +1663,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Remove code or files.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2018,11 +1688,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Fix a bug.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2048,11 +1713,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Critical hotfix.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2078,11 +1738,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Introduce new features.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2108,11 +1763,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update documentation.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2138,11 +1788,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Deploy stuff.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2168,11 +1813,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update the UI and style files.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2198,11 +1838,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Begin a project.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2228,11 +1863,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update tests.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2258,11 +1888,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Fix security issues.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2288,11 +1913,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Release / Version tags.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2318,11 +1938,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Fix compiler / linter warnings.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2348,11 +1963,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Work in progress.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2378,11 +1988,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Fix CI Build.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2408,11 +2013,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Downgrade dependencies.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2438,11 +2038,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Upgrade dependencies.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2468,11 +2063,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Pin dependencies to specific versions.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2498,11 +2088,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update CI build system.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2528,11 +2113,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update analytics or track code.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2558,11 +2138,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Refactor code.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2588,11 +2163,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add a dependency.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2618,11 +2188,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Remove a dependency.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2648,11 +2213,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update configuration files.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2678,11 +2238,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update development scripts.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2708,11 +2263,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Internationalization and localization.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2738,11 +2288,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Fix typos.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2768,11 +2313,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Write bad code that needs to be improved.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2798,11 +2338,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Revert changes.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2828,11 +2363,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Merge branches.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2858,11 +2388,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update compiled files or packages.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2888,11 +2413,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Update code due to external API changes.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2918,11 +2438,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Move or rename resources (e.g.: files, paths, routes).
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2948,11 +2463,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update license.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -2978,11 +2488,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Introduce breaking changes.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3008,11 +2513,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update assets.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3038,11 +2538,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Improve accessibility.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3068,11 +2563,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update comments in source code.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3098,11 +2588,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Write code drunkenly.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3128,11 +2613,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update text and literals.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3158,11 +2638,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Perform database related changes.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3188,11 +2663,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update logs.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3218,11 +2688,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Remove logs.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3248,11 +2713,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update contributor(s).
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3278,11 +2738,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Improve user experience / usability.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3308,11 +2763,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Make architectural changes.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3338,11 +2788,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Work on responsive design.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3368,11 +2813,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Mock things.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3398,11 +2838,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update an easter egg.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3428,11 +2863,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update a .gitignore file.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3458,11 +2888,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update snapshots.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3488,11 +2913,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Perform experiments.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3518,11 +2938,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Improve SEO.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3548,11 +2963,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update types.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3578,11 +2988,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update seed files.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3608,11 +3013,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add, update, or remove feature flags.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3638,11 +3038,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Catch errors.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3668,11 +3063,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Add or update animations and transitions.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3698,11 +3088,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Deprecate code that needs to be cleaned up.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3728,11 +3113,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Work on code related to authorization, roles and permissions.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3758,11 +3138,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Simple fix for a non-critical issue.
-        </p>
       </li>
       <li
         class="gitmoji"
@@ -3788,11 +3163,6 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="indicator-group"
         />
          
-        <p
-          class="description"
-        >
-          Data exploration/inspection.
-        </p>
       </li>
     </ul>
      

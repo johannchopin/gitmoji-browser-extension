@@ -58,6 +58,24 @@ exports[`<Settings /> should match snapshot 1`] = `
           Close extension after copying a gitmoji
         </h2>
       </div>
+       
+      <div
+        class="setting"
+      >
+        <div
+          class="checkbox"
+        >
+          <input
+            type="checkbox"
+          />
+           
+          <label />
+        </div>
+         
+        <h2>
+          Show description on hover or focus
+        </h2>
+      </div>
     </div>
   </div>
 </body>
