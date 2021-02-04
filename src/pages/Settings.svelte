@@ -82,4 +82,13 @@
     />
     <h2>Close extension after copying a gitmoji</h2>
   </div>
+  <div class="setting">
+    <ToggleButton 
+      checked={$settings.showDescription} 
+      onClick={() => {
+        settings.setShowDescription(!$settings.showDescription)
+      }}
+    />
+    <h2>Show description on hover or focus</h2>
+  </div>
 </div>

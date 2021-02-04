@@ -29,6 +29,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -53,6 +54,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -77,6 +79,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -101,6 +104,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -125,6 +129,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -149,6 +154,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -173,6 +179,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -197,6 +204,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -221,6 +229,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -245,6 +254,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -269,6 +279,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -293,6 +304,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -317,6 +329,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -341,6 +354,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -365,6 +379,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -389,6 +404,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -413,6 +429,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -437,6 +454,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -461,6 +479,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -485,6 +504,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -509,6 +529,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -533,6 +554,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -557,6 +579,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -581,6 +604,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -605,6 +629,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -629,6 +654,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -653,6 +679,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -677,6 +704,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -701,6 +729,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -725,6 +754,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -749,6 +779,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -773,6 +804,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -797,6 +829,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -821,6 +854,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -845,6 +879,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -869,6 +904,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -893,6 +929,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -917,6 +954,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -941,6 +979,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -965,6 +1004,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -989,6 +1029,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1013,6 +1054,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1037,6 +1079,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1061,6 +1104,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1085,6 +1129,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1109,6 +1154,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1133,6 +1179,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1157,6 +1204,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1181,6 +1229,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1205,6 +1254,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1229,6 +1279,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1253,6 +1304,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1277,6 +1329,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1301,6 +1354,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1325,6 +1379,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1349,6 +1404,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1373,6 +1429,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1397,6 +1454,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1421,6 +1479,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1445,6 +1504,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1469,6 +1529,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1493,6 +1554,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1517,6 +1579,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
     </ul>
      
@@ -1549,6 +1612,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1573,6 +1637,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1597,6 +1662,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1621,6 +1687,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1645,6 +1712,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1669,6 +1737,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1693,6 +1762,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1717,6 +1787,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1741,6 +1812,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1765,6 +1837,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1789,6 +1862,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1813,6 +1887,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1837,6 +1912,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1861,6 +1937,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1885,6 +1962,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1909,6 +1987,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1933,6 +2012,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1957,6 +2037,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -1981,6 +2062,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2005,6 +2087,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2029,6 +2112,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2053,6 +2137,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2077,6 +2162,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2101,6 +2187,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2125,6 +2212,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2149,6 +2237,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2173,6 +2262,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2197,6 +2287,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2221,6 +2312,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2245,6 +2337,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2269,6 +2362,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2293,6 +2387,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2317,6 +2412,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2341,6 +2437,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2365,6 +2462,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2389,6 +2487,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2413,6 +2512,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2437,6 +2537,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2461,6 +2562,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2485,6 +2587,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2509,6 +2612,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2533,6 +2637,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2557,6 +2662,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2581,6 +2687,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2605,6 +2712,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2629,6 +2737,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2653,6 +2762,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2677,6 +2787,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2701,6 +2812,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2725,6 +2837,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2749,6 +2862,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2773,6 +2887,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2797,6 +2912,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2821,6 +2937,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2845,6 +2962,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2869,6 +2987,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2893,6 +3012,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2917,6 +3037,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2941,6 +3062,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2965,6 +3087,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -2989,6 +3112,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -3013,6 +3137,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
       <li
         class="gitmoji"
@@ -3037,6 +3162,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         <div
           class="indicator-group"
         />
+         
       </li>
     </ul>
      

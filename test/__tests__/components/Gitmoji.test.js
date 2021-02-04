@@ -12,6 +12,7 @@ describe('<Gitmoji />', () => {
     code: ':art:',
     emoji: '🎨',
     color: '#ff7281',
+    description: 'Improve structure / format of the code.',
     onSave: onSaveSpy
   }
 

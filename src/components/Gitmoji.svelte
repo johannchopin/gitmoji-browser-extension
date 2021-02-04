@@ -1,9 +1,11 @@
 <script>
+  import { settings } from '../stores'
   import Icon from './Icon/Icon'
   import { setClipboard } from '../helpers/clipboard'
 
   export let code
   export let emoji
+  export let description
   export let present = false
   export let color
   export let onSave
@@ -29,6 +31,9 @@
     position: relative;
     display: flex;
     margin: 0.5em;
+  }
+
+  .gitmoji, .description {
     box-shadow: 0 1px 2px 0 rgba(168, 182, 191, 0.6);
     border-radius: 4px;
   }
@@ -98,6 +103,40 @@
     width: 100%;
   }
 
+  .description {
+    visibility: hidden;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 90%;
+    padding: 5px;
+    padding-bottom: 2px; /* padding minus border-bottom */
+    margin: 0;
+    font-size: 1.5em;
+    transform: translateX(-50%);
+    border: solid 3px var(--color);
+    border-top: none;
+    border-right: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    transition: top .3s;
+    background-color: rgba(255, 255, 255, .8);
+    backdrop-filter: blur(5px);
+    z-index: 2;
+  }
+
+  :global(body.dark) .description {
+    background-color: rgba(0, 0, 0, .8);
+  }
+
+  .emoji:hover ~ .description,
+  .emoji:focus ~ .description,
+  .code:hover ~ .description,
+  .code:focus ~ .description {
+    visibility: visible;
+    top: 100%;
+  }
+
   .indicator-group {
     position: absolute;
     right: 1em;
@@ -157,4 +196,8 @@
       </div>
     {/if}
   </div>
+
+  {#if $settings.showDescription}
+    <p class="description">{description}</p>
+  {/if}
 </li>
