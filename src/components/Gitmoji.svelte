@@ -1,4 +1,5 @@
 <script>
+  import { settings } from '../stores'
   import Icon from './Icon/Icon'
   import { setClipboard } from '../helpers/clipboard'
 
@@ -196,5 +197,7 @@
     {/if}
   </div>
 
-  <p class="description">{description}</p>
+  {#if $settings.showDescription}
+    <p class="description">{description}</p>
+  {/if}
 </li>
