@@ -2,6 +2,7 @@
 
 The [Gitmoji](https://gitmoji.dev/) extension to easily search and copy gitmojis 😜
 
+![test workflow](https://github.com/johannchopin/gitmoji-browser-extension/actions/workflows/test.yml/badge.svg)
 <a href="https://gitmoji.carloscuesta.me">
   <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
 </a>
