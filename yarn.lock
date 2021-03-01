@@ -5945,10 +5945,10 @@ parcel-plugin-svelte@4.0.6:
   resolved "https://registry.yarnpkg.com/parcel-plugin-svelte/-/parcel-plugin-svelte-4.0.6.tgz#65f3e9cbfb44f5b6db9e6c70c9cc54891297f4b1"
   integrity sha512-DMeu71qTrcLpSRhgGqAm1Seq+PBw+Aq0BuS2GIYwg8j2WIGo65oB4yRpPgcRQ0OVS1UUOiv8u64+AgiFzCpyOA==
 
-parcel-transformer-svelte@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/parcel-transformer-svelte/-/parcel-transformer-svelte-1.1.0.tgz#163cbae777aeab425b550d40d2804d82b21975a6"
-  integrity sha512-0q1SgvvbwzokCg9UtyLwar1eMWEjuaMqXQV/utVh0jj1nzdsmtkXOYcb2n/WdZzE8h8Kh0q6YJoULys/0zy1mA==
+parcel-transformer-svelte@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/parcel-transformer-svelte/-/parcel-transformer-svelte-1.1.1.tgz#0f941816a1f4c13f2bd6b60a5ce08f310abd5dcc"
+  integrity sha512-RlQ/pa9EolaDwQyIKlfJagaiWMx2djbJBcBwOrztpRgKmF2HSKIRq+j3ssOxrAl6s008DCQV0/vHXcB5yvI0hQ==
   dependencies:
     "@parcel/plugin" "^2.0.0-beta.1"
     "@parcel/source-map" "^2.0.0-alpha.4.13"
