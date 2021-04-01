@@ -29,7 +29,7 @@
     "@babel/core": "^7.11.1",
     "@babel/polyfill": "7.12.1",
     "@babel/preset-env": "^7.11.0",
-    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/svelte": "^3.0.3",
     "babel-jest": "^26.2.2",
     "cpy-cli": "3.1.1",
