@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.1] - 2021-05-04
+### 🐛 Fixed
+- eye icon color on dark theme
+
 ## [1.4.0] - 2021-02-04
 ### ✨ Added
 - Option to see gitmoji's description on `hover` or `focus`
@@ -62,7 +66,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]: https://github.com/johannchopin/gitmoji-browser-extension/compare/v1.4.0...HEAD
+[Unreleased]: https://github.com/johannchopin/gitmoji-browser-extension/compare/v1.4.1...HEAD
+[1.4.1]: https://github.com/johannchopin/gitmoji-browser-extension/releases/tag/v1.4.0
 [1.4.0]: https://github.com/johannchopin/gitmoji-browser-extension/releases/tag/v1.4.0
 [1.3.0]: https://github.com/johannchopin/gitmoji-browser-extension/releases/tag/v1.3.0
 [1.2.5]: https://github.com/johannchopin/gitmoji-browser-extension/releases/tag/v1.2.5
