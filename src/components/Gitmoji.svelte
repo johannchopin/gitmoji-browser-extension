@@ -144,6 +144,11 @@
     transform: translateY(-50%);
   }
 
+  :global(body.dark .gitmoji .eye)  {
+    opacity: 0.7;
+    filter: invert(100%);
+  }
+
   :global(.gitmoji .eye) {
     width: 1.3em;
     opacity: 0.3;

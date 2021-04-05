@@ -12,7 +12,7 @@ describe('<Popup />', () => {
     it('should contain a header', () => {
       const { container } = wrapper
 
-      expect(container).toContainHTML('<header>')
+      expect(container).toContainHTML('<header ')
     })
 
     it('should contain gitmoji logo', () => {
