@@ -95,7 +95,7 @@ const createUserSettingsStore = () => {
     setInjectGitmoji: (injectGitmoji) => {
       if (isInExtension()) {
         /* eslint-disable-next-line no-undef */
-        chrome.storage.local.set({ [INJECT_GITMOJI_SETTINGS_KEY]: insertGitmoji })
+        chrome.storage.local.set({ [INJECT_GITMOJI_SETTINGS_KEY]: injectGitmoji })
       }
 
       update(settings => {
