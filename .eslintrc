@@ -20,7 +20,7 @@
   "rules": {
     "eol-last": ["error", "always"],
     "indent": ["warn", 2],
-    "max-len": ["error", { "code": 95, "ignoreComments": true }],
+    "max-len": ["error", { "code": 110, "ignoreComments": true }],
     "no-param-reassign": "off",
     "semi": ["error", "never"]
    }
