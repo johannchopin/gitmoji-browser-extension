@@ -1,14 +1,55 @@
-export const injectMergeGitmoji = () => {
-  // Select the node that will be observed for mutations
-  var targetNode = document.body
+const MERGE_EMOJI = '🔀'
+const MERGE_CODE = ':twisted_rightwards_arrows:'
 
-  // Create an observer instance linked to the callback function
-  const observer = new MutationObserver(() => {
-    alert('test')
+export const getPlatform = () => {
+  const currentUrl = window.location.href
+  const PLATFORMS = [
+    {
+      url: 'https://github.com/',
+      platform: 'github'
+    },
+    {
+      url: 'https://gitlab.com/',
+      platform: 'gitlab'
+    }
+  ]
+
+  const match = PLATFORMS.find((platform) => {
+    return currentUrl.startsWith(platform.url)
   })
 
-  // Start observing the target node for configured mutations
-  observer.observe(targetNode, { attributes: true, childList: true })
+  if (match) {
+    return match.platform
+  }
+
+  return null
 }
 
-injectMergeGitmoji()
+const getCommitTitleInput = (platform) => {
+  if (platform === 'github') return document.querySelector('input[name="commit_title"]')
+  if (platform === 'gitlab') return document.getElementById('merge-message-edit')
+}
+
+export const injectMergeGitmoji = () => {
+  const platform = getPlatform()
+
+  if (platform) {
+    let commitTitleInput = getCommitTitleInput(platform)
+
+    if (commitTitleInput) {
+      const title = commitTitleInput.value
+
+      const gitmojiAlreadySet = [MERGE_CODE, MERGE_EMOJI].some((gitmoji) => {
+        return title.startsWith(gitmoji)
+      })
+
+      if (!gitmojiAlreadySet) {
+        const titleWithGitmoji = `🔀 ${title}`
+        commitTitleInput.value = titleWithGitmoji
+      }
+    }
+  }
+}
+
+const observer = new MutationObserver(injectMergeGitmoji)
+observer.observe(document.body, { attributes: true, childList: true })
