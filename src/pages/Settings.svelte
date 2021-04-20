@@ -4,6 +4,7 @@
   import ToggleButton from '../components/ToggleButton'
   import Icon from '../components/Icon/Icon'
   import ThemeSwitch from '../components/ThemeSwitch'
+  import MergeGitmojiTypeSelect from '../components/MergeGitmojiTypeSelect'
 
   const onThemeChange = (theme) => {
     settings.setTheme(theme)
@@ -47,7 +48,7 @@
     align-items: center;
   }
 
-  .setting.theme {
+  .center {
     justify-content: center;
   }
 
@@ -70,7 +71,7 @@
 </header>
 
 <div class="settings">
-  <div class="setting theme">
+  <div class="setting center">
     <ThemeSwitch onChange={onThemeChange}/>
   </div>
   <div class="setting">
@@ -91,4 +92,31 @@
     />
     <h2>Show description on hover or focus</h2>
   </div>
+
+  <hr>
+
+  <div class="setting">
+    <ToggleButton 
+      checked={$settings.injectGitmoji.inject} 
+      onClick={() => {
+        settings.setInjectGitmoji({ 
+          ...$settings.injectGitmoji, 
+          inject: !$settings.injectGitmoji.inject
+        })
+      }}
+    />
+    <h2>Inject 🔀 gitmoji in GitHub/GitLab pull-request commit's message</h2>
+  </div>
+
+  {#if $settings.injectGitmoji.inject}
+    <div class="setting center">
+      <MergeGitmojiTypeSelect
+        type={$settings.injectGitmoji.type}
+        onChange={(type) => {
+          settings.setInjectGitmoji({ ...$settings.injectGitmoji, type })
+        }}
+      />
+    </div>
+  {/if}
+
 </div>
