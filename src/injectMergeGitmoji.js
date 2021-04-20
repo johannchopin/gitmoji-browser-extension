@@ -58,7 +58,7 @@ export const injectMergeGitmoji = (gitmojiType) => {
 }
 
 // eslint-disable-next-line no-undef
-chrome.storage.local.get([INJECT_GITMOJI_DATA_KEY], (result) => {
+chrome.storage.local.get([INJECT_GITMOJI_SETTINGS_KEY], (result) => {
   const injectGitmojiSetting = result[INJECT_GITMOJI_SETTINGS_KEY]
     || DEFAULT_INJECT_GITMOJI_SETTINGS
   const { inject, type } = injectGitmojiSetting
