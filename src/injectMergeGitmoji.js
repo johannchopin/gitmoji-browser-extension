@@ -32,6 +32,8 @@ export const getPlatform = () => {
 const getCommitTitleInput = (platform) => {
   if (platform === 'github') return document.querySelector('input[name="commit_title"]')
   if (platform === 'gitlab') return document.getElementById('merge-message-edit')
+
+  return null
 }
 
 export const injectMergeGitmoji = (gitmojiType) => {

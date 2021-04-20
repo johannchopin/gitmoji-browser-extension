@@ -99,8 +99,8 @@
     <ToggleButton 
       checked={$settings.injectGitmoji.inject} 
       onClick={() => {
-        settings.setInjectGitmoji({ 
-          ...$settings.injectGitmoji, 
+        settings.setInjectGitmoji({
+          ...$settings.injectGitmoji,
           inject: !$settings.injectGitmoji.inject
         })
       }}
