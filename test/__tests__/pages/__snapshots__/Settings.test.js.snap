@@ -20,7 +20,7 @@ exports[`<Settings /> should match snapshot 1`] = `
       class="settings"
     >
       <div
-        class="setting theme"
+        class="setting center"
       >
         <div
           class="theme-switch"
@@ -75,6 +75,51 @@ exports[`<Settings /> should match snapshot 1`] = `
         <h2>
           Show description on hover or focus
         </h2>
+      </div>
+       
+      <hr />
+       
+      <div
+        class="setting"
+      >
+        <div
+          class="checkbox"
+        >
+          <input
+            type="checkbox"
+          />
+           
+          <label />
+        </div>
+         
+        <h2>
+          Inject 🔀 gitmoji in GitHub/GitLab pull-request commit's message
+        </h2>
+      </div>
+       
+      <div
+        class="setting center"
+      >
+        <div
+          class="merge-gitmoji-type-select"
+        >
+          <h3>
+            Select which type of gitmoji you want to use (code/emoji):
+          </h3>
+           
+          <select>
+            <option
+              value="emoji"
+            >
+              🔀 
+            </option>
+            <option
+              value="code"
+            >
+              :twisted_rightwards_arrows:
+            </option>
+          </select>
+        </div>
       </div>
     </div>
   </div>
