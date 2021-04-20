@@ -1,5 +1,9 @@
-const MERGE_EMOJI = '🔀'
-const MERGE_CODE = ':twisted_rightwards_arrows:'
+const INJECT_GITMOJI_SETTINGS_KEY = 'inject-gitmoji'
+const DEFAULT_INJECT_GITMOJI_SETTINGS = { inject: true, type: 'emoji' }
+const MERGE_GITMOJI = {
+  emoji: '🔀',
+  code: ':twisted_rightwards_arrows:'
+}
 
 export const getPlatform = () => {
   const currentUrl = window.location.href
@@ -30,26 +34,37 @@ const getCommitTitleInput = (platform) => {
   if (platform === 'gitlab') return document.getElementById('merge-message-edit')
 }
 
-export const injectMergeGitmoji = () => {
+export const injectMergeGitmoji = (gitmojiType) => {
   const platform = getPlatform()
 
   if (platform) {
     let commitTitleInput = getCommitTitleInput(platform)
 
     if (commitTitleInput) {
-      const title = commitTitleInput.value
+      const title = commitTitleInput.value.trim()
 
-      const gitmojiAlreadySet = [MERGE_CODE, MERGE_EMOJI].some((gitmoji) => {
+      const gitmojiAlreadySet = [MERGE_GITMOJI.code, MERGE_GITMOJI.emoji].some((gitmoji) => {
         return title.startsWith(gitmoji)
       })
 
       if (!gitmojiAlreadySet) {
-        const titleWithGitmoji = `🔀 ${title}`
+        const gitmoji = MERGE_GITMOJI[gitmojiType]
+        const titleWithGitmoji = `${gitmoji} ${title}`
+
         commitTitleInput.value = titleWithGitmoji
       }
     }
   }
 }
 
-const observer = new MutationObserver(injectMergeGitmoji)
-observer.observe(document.body, { attributes: true, childList: true })
+// eslint-disable-next-line no-undef
+chrome.storage.local.get([INJECT_GITMOJI_DATA_KEY], (result) => {
+  const injectGitmojiSetting = result[INJECT_GITMOJI_SETTINGS_KEY]
+    || DEFAULT_INJECT_GITMOJI_SETTINGS
+  const { inject, type } = injectGitmojiSetting
+
+  if (inject) {
+    const observer = new MutationObserver(() => { injectMergeGitmoji(type) })
+    observer.observe(document.body, { attributes: true, childList: true })
+  }
+})
