@@ -22,11 +22,7 @@ export const getPlatform = () => {
     return currentUrl.startsWith(platform.url)
   })
 
-  if (match) {
-    return match.platform
-  }
-
-  return null
+  return match?.platform
 }
 
 const getCommitTitleInput = (platform) => {
