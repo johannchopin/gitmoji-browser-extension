@@ -61,5 +61,7 @@
 
 <div class="checkbox" on:click={onClick}>
   <input type="checkbox" checked={checked} />
+
+  <!-- svelte-ignore a11y-label-has-associated-control -->
   <label></label>
 </div>

@@ -23,5 +23,11 @@
       },
       "description": "Open the gitmoji popup"
     }
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*/pull/*", "https://gitlab.com/*/*/-/merge_requests/*"],
+      "js": ["injectMergeGitmoji.js"]
+    }
+  ]
 }

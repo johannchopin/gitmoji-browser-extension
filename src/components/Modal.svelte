@@ -25,6 +25,7 @@
     animation: apparition .5s forwards;
     animation-delay: .5s;
     opacity: 0;
+    z-index: 1000;
   }
 
   .body {
