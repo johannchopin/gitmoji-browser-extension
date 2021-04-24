@@ -71,7 +71,7 @@ Install the extension according to your browser:
 
 - 🔍 Search for a specific gitmoji's code/emoji by name or description
 - 🐕 Detect the gitmojis present on the current tab
-- ➕ Inject 🔀 gitmoji in front of the commit title from GitHub/GitLab pull-request 
+- ➕ Inject 🔀 gitmoji in front of the commit title of GitHub/GitLab pull-request 
 - Through the settings panel:
   - 🌔 Dark/light mode (default to light)
   - ❌ Close extension's popup after a gitmoji is saved in the clipboard (default to no)
@@ -79,16 +79,25 @@ Install the extension according to your browser:
 
 ## ⚖️ Permissions
 
+>activeTab
+
+Detect the gitmojis present on the current tab.
+Used to access some hardocded URLs detailed below:
+
 >Access your data for github.com
 >Access your data for gitlab.com
 
-Are used for the feature "Inject 🔀 gitmoji in front of the commit title from GitHub/GitLab pull-request "
+Are used for the feature "Inject 🔀 gitmoji in front of the commit title of GitHub/GitLab pull-request"
 
 We restricted these permissions to the [minimum by using specific URLs](https://github.com/johannchopin/gitmoji-browser-extension/blob/master/manifest.json#L29):
 * https://github.com/*/*/pull/*
 * https://gitlab.com/*/*/-/merge_requests/*
 
 It can be checked on the [injectMergeGitmoji.js](https://github.com/johannchopin/gitmoji-browser-extension/blob/master/src/injectMergeGitmoji.js) file.
+
+>Storage
+
+The storage is used to keep the settings preferences (see 🧩 Features > Through the settings panel).
 
 ## ✨ Usage (with keyboard shortcuts)
 
