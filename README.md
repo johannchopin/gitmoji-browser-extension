@@ -73,6 +73,15 @@ Install the extension according to your browser:
 - use <kbd>tab</kbd> and <kbd>Shift+tab</kbd> to navigate between the shortcodes and emojis
 - press <kbd>Enter</kbd> to copy
 
+## 🧩 Features
+
+- 🔍 Search for a specific gitmoji's code/emoji by name or description
+- 🌔 Dark/light mode
+- ❓ Show gitmoji's description on mouse over or focus
+- ❌ Close extension's popup after a gitmoji is saved in the clipboard
+- 🐕 Detect the gitmojis present on the current tab
+- ➕ Inject 🔀 gitmoji in front of the commit title from GitHub/GitLab pull-request
+
 ## 🦄 Contributing
 
 All remarks are welcome so feel free to [open an issue](https://github.com/johannchopin/gitmoji-browser-extension/issues/new/choose) 😉
