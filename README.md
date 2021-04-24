@@ -66,12 +66,6 @@ Install the extension according to your browser:
 - [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/addon/gitmoji-browser-extension/)
 - [Edge add-ons](https://microsoftedge.microsoft.com/addons/detail/gitmoji-browser-extension/lbmcfpombfmfhgheofkfhmhnmcbomjdd)
 
-## ✨ Usage (keyboard)
-
-- toggle the extension button or use the shortcut <kbd>Alt+G</kbd> (<kbd>⌥+G</kbd> for mac)
-- search emoji names or descriptions (from the [website](https://gitmoji.dev/))
-- use <kbd>tab</kbd> and <kbd>Shift+tab</kbd> to navigate between the shortcodes and emojis
-- press <kbd>Enter</kbd> to copy
 
 ## 🧩 Features
 
@@ -82,6 +76,13 @@ Install the extension according to your browser:
   - 🌔 Dark/light mode (default to light)
   - ❌ Close extension's popup after a gitmoji is saved in the clipboard (default to no)
   - ❓ Show gitmoji's description on mouse over or focus (default to no)
+
+## ✨ Usage (keyboard)
+
+- toggle the extension button or use the shortcut <kbd>Alt+G</kbd> (<kbd>⌥+G</kbd> for mac)
+- search emoji names or descriptions (from the [website](https://gitmoji.dev/))
+- use <kbd>tab</kbd> and <kbd>Shift+tab</kbd> to navigate between the shortcodes and emojis
+- press <kbd>Enter</kbd> to copy
 
 ## 🦄 Contributing
 
