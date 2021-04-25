@@ -66,7 +66,41 @@ Install the extension according to your browser:
 - [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/addon/gitmoji-browser-extension/)
 - [Edge add-ons](https://microsoftedge.microsoft.com/addons/detail/gitmoji-browser-extension/lbmcfpombfmfhgheofkfhmhnmcbomjdd)
 
-## ✨ Usage (keyboard)
+
+## 🧩 Features
+
+- 🔍 Search for a specific gitmoji's code/emoji by name or description
+- 🐕 Detect the gitmojis present on the current tab
+- ➕ Inject 🔀 gitmoji in front of the commit title of GitHub/GitLab pull-request 
+- 🌔 Dark/light mode (⚙️)
+- ❌ Close extension's popup after a gitmoji is saved in the clipboard (⚙️)
+- ❓ Show gitmoji's description on mouse over or focus (⚙️)
+
+Features with the (⚙️) can be modified in the settings page.
+
+## ⚖️ Permissions
+
+>activeTab
+
+Detect the gitmojis present on the current tab.
+Used to access some hardcoded URLs detailed below:
+
+>Access your data for github.com  
+>Access your data for gitlab.com
+
+Both are used for the feature "Inject 🔀 gitmoji in front of the commit title of GitHub/GitLab pull-request"
+
+We restricted these permissions to the [minimum by using specific URLs](https://github.com/johannchopin/gitmoji-browser-extension/blob/master/manifest.json#L29):
+* https://github.com/*/*/pull/*
+* https://gitlab.com/*/*/-/merge_requests/*
+
+It can be checked on the [injectMergeGitmoji.js](https://github.com/johannchopin/gitmoji-browser-extension/blob/master/src/injectMergeGitmoji.js) file.
+
+>Storage
+
+The storage is used to keep the settings preferences (see 🧩 Features > Through the settings panel).
+
+## ✨ Usage (with keyboard shortcuts)
 
 - toggle the extension button or use the shortcut <kbd>Alt+G</kbd> (<kbd>⌥+G</kbd> for mac)
 - search emoji names or descriptions (from the [website](https://gitmoji.dev/))
