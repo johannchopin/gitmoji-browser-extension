@@ -72,17 +72,18 @@ Install the extension according to your browser:
 - 🔍 Search for a specific gitmoji's code/emoji by name or description
 - 🐕 Detect the gitmojis present on the current tab
 - ➕ Inject 🔀 gitmoji in front of the commit title of GitHub/GitLab pull-request 
-- Through the settings panel:
-  - 🌔 Dark/light mode (default to light)
-  - ❌ Close extension's popup after a gitmoji is saved in the clipboard (default to no)
-  - ❓ Show gitmoji's description on mouse over or focus (default to no)
+- 🌔 Dark/light mode (⚙️)
+- ❌ Close extension's popup after a gitmoji is saved in the clipboard (⚙️)
+- ❓ Show gitmoji's description on mouse over or focus (⚙️)
+
+Features with the (⚙️) can be modified in the settings page.
 
 ## ⚖️ Permissions
 
 >activeTab
 
 Detect the gitmojis present on the current tab.
-Used to access some hardocded URLs detailed below:
+Used to access some hardcoded URLs detailed below:
 
 >Access your data for github.com
 >Access your data for gitlab.com
