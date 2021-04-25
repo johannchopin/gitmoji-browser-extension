@@ -85,10 +85,10 @@ Features with the (⚙️) can be modified in the settings page.
 Detect the gitmojis present on the current tab.
 Used to access some hardcoded URLs detailed below:
 
->Access your data for github.com
+>Access your data for github.com  
 >Access your data for gitlab.com
 
-Are used for the feature "Inject 🔀 gitmoji in front of the commit title of GitHub/GitLab pull-request"
+Both are used for the feature "Inject 🔀 gitmoji in front of the commit title of GitHub/GitLab pull-request"
 
 We restricted these permissions to the [minimum by using specific URLs](https://github.com/johannchopin/gitmoji-browser-extension/blob/master/manifest.json#L29):
 * https://github.com/*/*/pull/*
