@@ -1,0 +1,55 @@
+Gitmoji (https://gitmoji.carloscuesta.me/) is a project to standardize emojis in git messages 🎉
+This extension should provide an easy way to search and copy codes or emojis. It is meant for people who knows which
+emoji should be used 😈
+
+<strong>🧩 Features</strong>
+
+<ul>
+    <li> 🔍 Search for a specific gitmoji's code/emoji by name or description </li>
+    <li> 🐕 Detect the gitmojis present on the current tab </li>
+    <li> ➕ Inject 🔀 gitmoji in front of the commit title of GitHub/GitLab pull-request </li>
+    <li> 🌔 Dark/light mode (⚙️) </li>
+    <li> ❌ Close extension's popup after a gitmoji is saved in the clipboard (⚙️) </li>
+    <li> ❓ Show gitmoji's description on mouse over or focus (⚙️) </li>
+</ul>
+
+Features with the (⚙️) can be modified in the settings page.
+
+<strong>✨ Usage (with keyboard shortcuts)</strong>
+
+<ol>
+    <li> toggle the extension button or use the shortcut <code>Alt+G</code> (<code>⌥+G</code> for mac) </li>
+    <li> search emoji names or descriptions (from the <a href="https://gitmoji.dev/"
+            alt="https://gitmoji.dev/">website</a> </li>
+    <li> use <code>tab</code> and <code>Shift+tab</code> to navigate between the shortcodes and emojis </li>
+    <li> press <code>Enter</code> to copy </li>
+</ol>
+
+<strong>⚖️ Permissions</strong>
+
+<em>activeTab</em>
+
+Detect the gitmojis present on the current tab.
+Used to access some hardcoded URLs detailed below:
+
+<em>Access your data for github.com
+    Access your data for gitlab.com</em>
+
+Both are used for the feature "Inject 🔀 gitmoji in front of the commit title of GitHub/GitLab pull-request"
+
+We restricted these permissions to the <a
+    href="https://github.com/johannchopin/gitmoji-browser-extension/blob/master/manifest.json#L29"
+    alt="https://github.com/johannchopin/gitmoji-browser-extension">minimum by using specific URLs</a>:
+<ul>
+    <li>https://github.com/*/*/pull/*</li>
+    <li> https://gitlab.com/*/*/-/merge_requests/*</li>
+</ul>
+
+It can be checked on the <a
+    href="https://github.com/johannchopin/gitmoji-browser-extension/blob/master/src/injectMergeGitmoji.js)"
+    alt="https://github.com/johannchopin/gitmoji-browser-extension/blob/master/src/injectMergeGitmoji.js ">injectMergeGitmoji.js</a>
+file.
+
+<em>Storage</em>
+
+The storage is used to keep the settings preferences (see 🧩 Features > Through the settings panel).
