@@ -7697,10 +7697,10 @@ svelte-portal@^2.0.0:
   resolved "https://registry.yarnpkg.com/svelte-portal/-/svelte-portal-2.1.2.tgz#5a355c18c9782149f94cbb1649ecbdf3d3667293"
   integrity sha512-u1ONI4ZJDNhVJPDW7tH6RH1ZIzALt6kJZbF00Hz9bgNIVRlzvzimsnwf35rGFMtPFA+FYenvsTHUR815yYNc9A==
 
-svelte-preprocess@4.6.5:
-  version "4.6.5"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.6.5.tgz#65cd8e26241ce7e53a8c306472cefcb494a550f1"
-  integrity sha512-bVNq1seKfJlLKttWjhT55HBMz5WM8Ev5iidbu8qPD0B8+pHrsyg2QS2pZLQ6epU3GIKFfZzAlBQX+978GRHgkQ==
+svelte-preprocess@4.7.2:
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.7.2.tgz#e16bf5cc152df8097485ce8c7842073a83a12b1e"
+  integrity sha512-EToG+08rEsA33btv+C5g2qnRArwpTc5AoU0QBB3ZEkYagxAb2yPNsy0qsmtvbJOTBMy6o3oyijDdl3DMpMvpEg==
   dependencies:
     "@types/pug" "^2.0.4"
     "@types/sass" "^1.16.0"
