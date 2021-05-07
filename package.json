@@ -21,14 +21,14 @@
     "test:watch": "npm run test -- --watch"
   },
   "dependencies": {
-    "gitmojis": "3.1.2",
+    "gitmojis": "^3.2.0",
     "svelte": "^3.37.0",
     "svelte-portal": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/polyfill": "^7.12.1",
-    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-env": "^7.14.1",
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/svelte": "^3.0.3",
     "babel-jest": "^26.2.2",
