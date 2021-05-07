@@ -21,8 +21,8 @@
     "test:watch": "npm run test -- --watch"
   },
   "dependencies": {
-    "gitmojis": "3.1.2",
-    "svelte": "^3.37.0",
+    "gitmojis": "^3.2.0",
+    "svelte": "^3.38.2",
     "svelte-portal": "^2.0.0"
   },
   "devDependencies": {
