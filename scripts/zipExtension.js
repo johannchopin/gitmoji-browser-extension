@@ -1,10 +1,10 @@
-var { zip } = require('zip-a-folder')
 var path = require('path')
+var zipFolder = require('zip-folder')
 
-class ZipAFolder {
-  static async main() {
-    await zip(path.join(__dirname, '../dist/'), path.join(__dirname, '../extension.zip'))
+zipFolder(path.join(__dirname, '../dist/'), path.join(__dirname, '../extension.zip'), (err) => {
+  if (err) {
+    console.log('oh no!', err)
+  } else {
+    console.log('EXCELLENT')
   }
-}
-
-ZipAFolder.main()
+})
