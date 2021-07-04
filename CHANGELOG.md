@@ -6,20 +6,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.5.2] - 2021-08-04
+## [1.5.2] - 2021-07-04
 ### ♻️ Changed
 - update dependencies
 
-## [1.5.1] - 2021-07-05
+## [1.5.1] - 2021-06-05
 ### ✨ Added
 - update gitmojis to v3.2.0
 
 
-## [1.5.0] - 2021-21-04
+## [1.5.0] - 2021-04-21
 ### ✨ Added
 - add gitmoji in front of merge commit title for GitHub/GitLab
 
-## [1.4.1] - 2021-05-04
+## [1.4.1] - 2021-04-05
 ### 🐛 Fixed
 - eye icon color on dark theme
 
