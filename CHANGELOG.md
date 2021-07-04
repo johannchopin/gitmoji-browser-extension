@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.2] - 2021-08-04
+### ♻️ Changed
+- update dependencies
+
 ## [1.5.1] - 2021-07-05
 ### ✨ Added
 - update gitmojis to v3.2.0
