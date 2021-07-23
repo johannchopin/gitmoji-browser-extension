@@ -1,6 +1,6 @@
 {
   "name": "Gitmoji Browser Extension",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "The Gitmoji extension to easily search and copy gitmojis 😜",
   "permissions": [
     "activeTab",
@@ -26,8 +26,13 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://github.com/*/*/pull/*", "https://gitlab.com/*/*/-/merge_requests/*"],
-      "js": ["injectMergeGitmoji.js"]
+      "matches": [
+        "https://github.com/*/*/pull/*",
+        "https://gitlab.com/*/*/-/merge_requests/*"
+      ],
+      "js": [
+        "injectMergeGitmoji.js"
+      ]
     }
   ]
 }
