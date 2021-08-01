@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "gitmojis": "^3.4.0",
-    "svelte": "^3.38.2",
+    "svelte": "^3.41.0",
     "svelte-portal": "^2.0.0"
   },
   "devDependencies": {
