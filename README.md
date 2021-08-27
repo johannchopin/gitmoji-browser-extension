@@ -20,7 +20,7 @@ The [Gitmoji](https://gitmoji.dev/) extension to easily search and copy gitmojis
       <img alt="Chrome icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg" width="30">
     </th>
     <th>
-      <img alt="Edge icon" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Microsoft_Edge_logo_%282019%29.svg/1920px-Microsoft_Edge_logo_%282019%29.svg.png" width="30">
+      <img alt="Edge icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Microsoft_Edge_logo_%282019%29.svg/1024px-Microsoft_Edge_logo_%282019%29.svg.png" width="30">
     </th>
   </tr>
   <tr>
