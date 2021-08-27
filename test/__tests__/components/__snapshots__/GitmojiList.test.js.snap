@@ -114,7 +114,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            🚑
+            🚑️
           </span>
         </button>
          
@@ -289,7 +289,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            🔒
+            🔒️
           </span>
         </button>
          
@@ -739,7 +739,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            ⏪
+            ⏪️
           </span>
         </button>
          
@@ -789,7 +789,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            📦
+            📦️
           </span>
         </button>
          
@@ -814,7 +814,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            👽
+            👽️
           </span>
         </button>
          
@@ -1039,7 +1039,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            🗃
+            🗃️
           </span>
         </button>
          
@@ -1164,7 +1164,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            🏗
+            🏗️
           </span>
         </button>
          
@@ -1314,7 +1314,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            ⚗
+            ⚗️
           </span>
         </button>
          
@@ -1339,7 +1339,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            🔍
+            🔍️
           </span>
         </button>
          
@@ -1489,7 +1489,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            🗑
+            🗑️
           </span>
         </button>
          
@@ -1573,6 +1573,81 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         >
           <span>
             :monocle_face:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #d9e3e7;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ⚰️
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :coffin:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #fb594a;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🧪
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :test_tube:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #83bdec;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            👔
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :necktie:
           </span>
         </button>
          
@@ -1697,7 +1772,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            🚑
+            🚑️
           </span>
         </button>
          
@@ -1872,7 +1947,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            🔒
+            🔒️
           </span>
         </button>
          
@@ -2322,7 +2397,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            ⏪
+            ⏪️
           </span>
         </button>
          
@@ -2372,7 +2447,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            📦
+            📦️
           </span>
         </button>
          
@@ -2397,7 +2472,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            👽
+            👽️
           </span>
         </button>
          
@@ -2622,7 +2697,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            🗃
+            🗃️
           </span>
         </button>
          
@@ -2747,7 +2822,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            🏗
+            🏗️
           </span>
         </button>
          
@@ -2897,7 +2972,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            ⚗
+            ⚗️
           </span>
         </button>
          
@@ -2922,7 +2997,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            🔍
+            🔍️
           </span>
         </button>
          
@@ -3072,7 +3147,7 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
           class="emoji"
         >
           <span>
-            🗑
+            🗑️
           </span>
         </button>
          
@@ -3156,6 +3231,81 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         >
           <span>
             :monocle_face:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #d9e3e7;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            ⚰️
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :coffin:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #fb594a;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🧪
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :test_tube:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #83bdec;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            👔
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :necktie:
           </span>
         </button>
          
