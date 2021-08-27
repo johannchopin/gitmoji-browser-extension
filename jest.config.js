@@ -13,5 +13,6 @@ module.exports = {
   transformIgnorePatterns: [
     'node_modules/(?!(svelte-portal)/)'
   ],
+  testEnvironment: 'jsdom',
   setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect']
 }
