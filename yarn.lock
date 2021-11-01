@@ -4206,10 +4206,10 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gitmojis@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/gitmojis/-/gitmojis-3.5.0.tgz#d266bb5d7d5d245b1f17db1d3b77fe1635c5de27"
-  integrity sha512-bwpxpG808OcPZa78C0Kr0f31lYI4ELvx1xKxmPWL+/jEVbQ7Hld0axyMVWCr1xuz/Tu1h/H54V4SLw3HPDbYSA==
+gitmojis@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/gitmojis/-/gitmojis-3.6.0.tgz#5ac5bfe401e01d9c02262d8b394acee497fb64d9"
+  integrity sha512-VbJ7gdOBU8SVoD5r+tYnEHmVPawaDD9d4YGXEIkOz7LBLB0pMot6ltM7B4V3J4OI2JMmtURbscSNsrTLimzLjQ==
   dependencies:
     next-pwa "^5.2.24"
 
