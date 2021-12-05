@@ -3,20 +3,36 @@
 exports[`<Searchbar /> should match snapshot 1`] = `
 <body>
   <div>
-    <input
-      autofocus=""
-      maxlength="70"
-      placeholder="Search your gitmoji..."
-      type="text"
-    />
+    <div
+      class="input"
+    >
+      <input
+        autofocus=""
+        maxlength="70"
+        placeholder="Search your gitmoji..."
+        type="text"
+      />
+       
+      <kbd>
+        Ctrl K
+      </kbd>
+    </div>
   </div>
   <div>
-    <input
-      autofocus=""
-      maxlength="70"
-      placeholder="Search your gitmoji..."
-      type="text"
-    />
+    <div
+      class="input"
+    >
+      <input
+        autofocus=""
+        maxlength="70"
+        placeholder="Search your gitmoji..."
+        type="text"
+      />
+       
+      <kbd>
+        Ctrl K
+      </kbd>
+    </div>
   </div>
 </body>
 `;
