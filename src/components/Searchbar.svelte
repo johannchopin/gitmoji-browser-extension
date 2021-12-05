@@ -1,5 +1,29 @@
 <script>
+  import { onMount, onDestroy } from 'svelte'
   import { isMacOs } from '../helpers/browser'
+
+  let searchbar
+
+  const keyboardEventListener = (event) => {
+    if (
+      searchbar &&
+      (event.ctrlKey || event.metaKey) &&
+      event.key === 'k'
+    ) {
+      event.preventDefault()
+      searchbar.focus()
+    }
+  }
+
+  onMount(() => {
+    if (typeof window !== 'undefined') {
+      document.addEventListener('keydown', keyboardEventListener, false)
+    }
+  })
+
+  onDestroy(() => {
+    document.removeEventListener('keydown', keyboardEventListener, false)
+  })
 </script>
 
 <style>
@@ -52,6 +76,7 @@
     type="text"
     placeholder="Search your gitmoji..."
     autofocus
+    bind:this={searchbar}
     on:input
   />
 
