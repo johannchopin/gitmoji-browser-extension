@@ -6,9 +6,9 @@
 
   const keyboardEventListener = (event) => {
     if (
-      searchbar &&
-      (event.ctrlKey || event.metaKey) &&
-      event.key === 'k'
+      searchbar
+      && (event.ctrlKey || event.metaKey)
+      && event.key === 'k'
     ) {
       event.preventDefault()
       searchbar.focus()
