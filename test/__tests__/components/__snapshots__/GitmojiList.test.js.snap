@@ -1656,6 +1656,81 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         />
          
       </li>
+      <li
+        class="gitmoji"
+        style="--color: #77e856;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🩺
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :stethoscope:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ff6723;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🧱
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :bricks:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #87b837;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🧑‍💻
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :technologist:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
     </ul>
      
     
@@ -3306,6 +3381,81 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         >
           <span>
             :necktie:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #77e856;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🩺
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :stethoscope:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ff6723;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🧱
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :bricks:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #87b837;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🧑‍💻
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :technologist:
           </span>
         </button>
          
