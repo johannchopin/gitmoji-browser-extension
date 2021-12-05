@@ -59,9 +59,15 @@
     font-size: 1.2em;
   }
 
-  :global(body.dark) .input {
+  :global(body.dark) .input,
+  :global(body.dark) input,
+  :global(body.dark) kbd {
     color: white;
     background-color: black;
+  }
+
+  :global(body.dark) kbd {
+    border-color: white;
   }
 
   input:focus {
