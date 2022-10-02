@@ -7,3 +7,5 @@ updates:
     labels:
       - "⬆️ dependencies"
     milestone: 1
+    commit-message:
+      prefix: "⬆️ "
