@@ -308,6 +308,31 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
       </li>
       <li
         class="gitmoji"
+        style="--color: #83beec;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔐
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :closed_lock_with_key:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
         style="--color: #80deea;"
       >
         <button
@@ -1723,6 +1748,81 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         >
           <span>
             :technologist:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #b3c0b1;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            💸
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :money_with_wings:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffbe7b;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🧵
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :thread:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #f2ad52;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🦺
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :safety_vest:
           </span>
         </button>
          
@@ -2041,6 +2141,31 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
       </li>
       <li
         class="gitmoji"
+        style="--color: #83beec;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🔐
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :closed_lock_with_key:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
         style="--color: #80deea;"
       >
         <button
@@ -3456,6 +3581,81 @@ exports[`<GitmojiList /> should match snapshot 1`] = `
         >
           <span>
             :technologist:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #b3c0b1;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            💸
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :money_with_wings:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #ffbe7b;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🧵
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :thread:
+          </span>
+        </button>
+         
+        <div
+          class="indicator-group"
+        />
+         
+      </li>
+      <li
+        class="gitmoji"
+        style="--color: #f2ad52;"
+      >
+        <button
+          class="emoji"
+        >
+          <span>
+            🦺
+          </span>
+        </button>
+         
+        <button
+          class="code"
+        >
+          <span>
+            :safety_vest:
           </span>
         </button>
          

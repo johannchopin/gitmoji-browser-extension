@@ -1,4 +1,4 @@
-import { render, fireEvent } from '@testing-library/svelte'
+import { render, fireEvent, screen } from '@testing-library/svelte'
 import Gitmoji from '../../../src/components/Gitmoji.svelte'
 import * as clipboard from '../../../src/helpers/clipboard'
 
@@ -16,13 +16,13 @@ describe('<Gitmoji />', () => {
     onSave: onSaveSpy
   }
 
-  beforeAll(() => {
+  beforeEach(() => {
     wrapper = render(Gitmoji, gitmojiProps)
   })
 
   describe('snapshot', () => {
     it('should match snapshot', () => {
-      const { container } = render(Gitmoji, gitmojiProps)
+      const { container } = wrapper
 
       expect(container).toMatchSnapshot()
     })
@@ -37,7 +37,7 @@ describe('<Gitmoji />', () => {
   describe('save in clipboard', () => {
     it('should save emoji in clipboard', async () => {
       const { container } = wrapper
-      const saveEmojiBtn = container.querySelector('button.emoji')
+      const saveEmojiBtn = screen.getByRole('button', { name: gitmojiProps.emoji })
 
       await fireEvent.click(saveEmojiBtn)
 
@@ -47,7 +47,7 @@ describe('<Gitmoji />', () => {
 
     it('should save shortcode in clipboard', async () => {
       const { container } = wrapper
-      const saveShortcodeBtn = container.querySelector('button.code')
+      const saveShortcodeBtn = screen.getByRole('button', { name: gitmojiProps.code, hidden: true })
 
       await fireEvent.click(saveShortcodeBtn)
 

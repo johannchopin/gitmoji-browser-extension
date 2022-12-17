@@ -29,33 +29,6 @@ exports[`<Gitmoji /> snapshot should match snapshot 1`] = `
        
     </li>
   </div>
-  <div>
-    <li
-      class="gitmoji"
-      style="--color: #ff7281;"
-    >
-      <button
-        class="emoji"
-      >
-        <span>
-          🎨
-        </span>
-      </button>
-       
-      <button
-        class="code"
-      >
-        <span>
-          :art:
-        </span>
-      </button>
-       
-      <div
-        class="indicator-group"
-      />
-       
-    </li>
-  </div>
 </body>
 `;
 
