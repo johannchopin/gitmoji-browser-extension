@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.8.0] - 2022-12-17
+### ✨ Added
+- update gitmojis to v3.13.0
+
 ## [1.7.0] - 2021-12-05
 ### ✨ Added
 - update gitmojis to v3.8.0
@@ -92,7 +96,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]: https://github.com/johannchopin/gitmoji-browser-extension/compare/v1.7.0...HEAD
+[Unreleased]: https://github.com/johannchopin/gitmoji-browser-extension/compare/v1.8.0...HEAD
+[1.8.0]: https://github.com/johannchopin/gitmoji-browser-extension/releases/tag/v1.8.0
 [1.7.0]: https://github.com/johannchopin/gitmoji-browser-extension/releases/tag/v1.7.0
 [1.6.0]: https://github.com/johannchopin/gitmoji-browser-extension/releases/tag/v1.6.0
 [1.5.3]: https://github.com/johannchopin/gitmoji-browser-extension/releases/tag/v1.5.3
