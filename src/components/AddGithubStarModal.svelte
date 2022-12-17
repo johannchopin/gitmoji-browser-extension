@@ -44,17 +44,15 @@
   }
 </script>
 
-<Modal
-  open={isModalOpen}
-  onClose={closeModal}
->
+<Modal open={isModalOpen} onClose={closeModal}>
   <h2>You like to use the extension? Then leave a star on GitHub 🎉</h2>
-  <a 
-    href="https://github.com/johannchopin/gitmoji-browser-extension" 
+  <a
+    href="https://github.com/johannchopin/gitmoji-browser-extension"
     target="_blank"
     on:click={setAsClickedStorage}
+    rel="noreferrer"
   >
-    <Icon name='star' /> GitHub
+    <Icon name="star" /> GitHub
   </a>
 </Modal>
 
@@ -77,11 +75,11 @@
     margin: auto;
     margin-top: 20px;
     font-size: 16px;
-    transition-duration: .3s;
+    transition-duration: 0.3s;
   }
 
   a:hover {
-    box-shadow: 2px 3px rgba(0, 0, 0, .2);
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.2);
   }
 
   a :global(.icon) {
