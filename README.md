@@ -48,7 +48,7 @@ The [Gitmoji](https://gitmoji.dev/) extension to easily search and copy gitmojis
       <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/users/lkjogeoldakjceempbkdahkojohmbaja">
     </td>
     <td>
-      <i>not available<i>
+      <img alt="Edge Web Store" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/johannchopin/gitmoji-browser-extension/master/docs/edge_addon_analytics_for_shield.json">
     </td>
   </tr>
 </table>
