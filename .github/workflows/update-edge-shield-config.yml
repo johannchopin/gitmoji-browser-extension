@@ -18,12 +18,12 @@ jobs:
           path: "**/node_modules"
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
 
-      - name: Generate new
+      - name: Generate new config for edge add-on shield
         run: |
           yarn install
-          yarn node scripts/generateEdgeShieldData.js
+          yarn node ./scripts/generateEdgeShieldData.js
 
-      - name: Run the Action
+      - name: Commit changes
         uses: devops-infra/action-commit-push@master
         with:
           github_token: "${{ secrets.GITHUB_TOKEN }}"
