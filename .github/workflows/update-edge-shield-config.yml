@@ -1,0 +1,30 @@
+name: Update Edge Add-on shield config
+on:
+  schedule:
+    - cron: "0 2 * * *" # run at 02:00 on every day
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "16.x"
+
+      - uses: actions/cache@v2
+        with:
+          path: "**/node_modules"
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+
+      - name: Generate new config for edge add-on shield
+        run: |
+          yarn install
+          yarn node ./scripts/generateEdgeShieldData.js
+
+      - name: Commit changes
+        uses: devops-infra/action-commit-push@master
+        with:
+          github_token: "${{ secrets.GITHUB_TOKEN }}"
+          commit_prefix: "📈"
+          commit_message: "update edge add-on shield config"
