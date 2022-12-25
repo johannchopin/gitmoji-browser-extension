@@ -26,5 +26,5 @@ jobs:
         uses: devops-infra/action-commit-push@master
         with:
           github_token: "${{ secrets.GITHUB_TOKEN }}"
-          commit_prefix: "📈"
+          commit_prefix: "📈 "
           commit_message: "update edge add-on shield config"
