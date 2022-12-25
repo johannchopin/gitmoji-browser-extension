@@ -6,22 +6,41 @@
   "plugins": [
     "svelte3"
   ],
-  "extends": ["airbnb-base/legacy"],
+  "extends": [
+    "airbnb-base/legacy"
+  ],
   "parserOptions": {
     "ecmaVersion": 11,
     "sourceType": "module"
   },
   "overrides": [
     {
-      "files": ["*.svelte"],
+      "files": [
+        "*.svelte"
+      ],
       "processor": "svelte3/svelte3"
     }
   ],
   "rules": {
-    "eol-last": ["error", "always"],
-    "indent": ["warn", 2],
-    "max-len": ["error", { "code": 110, "ignoreComments": true }],
+    "eol-last": [
+      "error",
+      "always"
+    ],
+    "indent": [
+      "warn",
+      2
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 110,
+        "ignoreComments": true
+      }
+    ],
     "no-param-reassign": "off",
-    "semi": ["error", "never"]
-   }
+    "semi": [
+      "error",
+      "never"
+    ]
+  }
 }

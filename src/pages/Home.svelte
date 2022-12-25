@@ -24,8 +24,8 @@
     const wordsInFilter = filterToApply.trim().match(/[^ ]+/g)
 
     const gitmojiMatchAllWordsInFilter = (gitmoji, words) => {
-      return !words.some(wordInFilter => {
-        return !getGitmojiWords(gitmoji).some(gitmojiWord => {
+      return !words.some((wordInFilter) => {
+        return !getGitmojiWords(gitmoji).some((gitmojiWord) => {
           return gitmojiWord.startsWith(wordInFilter)
         })
       })
@@ -51,10 +51,10 @@
   $: filteredGitmojis = getFilteredGitmojis(gitmojis, filter)
 
   const getGitmojisPresentInTab = (tabInnerText) => {
-    return gitmojis.filter(gitmoji => {
+    return gitmojis.filter((gitmoji) => {
       const stringsToSearch = [gitmoji.code, gitmoji.emoji]
 
-      return stringsToSearch.some(stringToSearch => {
+      return stringsToSearch.some((stringToSearch) => {
         return tabInnerText.includes(stringToSearch)
       })
     })
@@ -62,8 +62,8 @@
 
   const setGitmojisPresentInTab = (gitmojisPresentInTab) => {
     const clonedGitmojis = [...gitmojis]
-    gitmojisPresentInTab.forEach(gitmojiPresentInTab => {
-      const gitmojiPresentInTabIndex = clonedGitmojis.findIndex(gitmoji => {
+    gitmojisPresentInTab.forEach((gitmojiPresentInTab) => {
+      const gitmojiPresentInTabIndex = clonedGitmojis.findIndex((gitmoji) => {
         return gitmoji.name === gitmojiPresentInTab.name
       })
       gitmojiPresentInTab.present = true
@@ -83,18 +83,23 @@
   }
 </script>
 
-<style>
-  .gitmoji-logo {
-    min-width: 30%;
-    margin-right: 1em;
-  }
-</style>
-
 <header>
-  <a href="https://gitmoji.dev/" target="_blank" class="gitmoji-logo">
+  <a
+    href="https://gitmoji.dev/"
+    target="_blank"
+    class="gitmoji-logo"
+    rel="noreferrer"
+  >
     <img src={logo} alt="Gitmoji logo" />
   </a>
   <Searchbar on:input={setFilter} />
 </header>
 
 <GitmojiList gitmojis={filteredGitmojis} />
+
+<style>
+  .gitmoji-logo {
+    min-width: 30%;
+    margin-right: 1em;
+  }
+</style>

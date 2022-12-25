@@ -1,6 +1,27 @@
 <script>
   import { page } from '../stores'
 </script>
+
+<footer>
+  <nav>
+    <button
+      on:click={() => {
+        page.goTo('settings')
+      }}
+    >
+      settings
+    </button>
+    <a
+      href="https://github.com/johannchopin/gitmoji-browser-extension"
+      target="_blank"
+      class="github"
+      rel="noreferrer"
+    >
+      GitHub
+    </a>
+  </nav>
+</footer>
+
 <style>
   footer {
     position: relative;
@@ -28,8 +49,8 @@
   }
 
   nav > *:not(:last-child):after {
-    content:"•";
-    margin: 0 .2em;
+    content: "•";
+    margin: 0 0.2em;
   }
 
   button {
@@ -44,17 +65,3 @@
     margin-bottom: -0.2em; /* Little trick to center the link verticaly */
   }
 </style>
-
-<footer>
-  <nav>
-    <button on:click={() => { page.goTo('settings') }}>
-      settings
-    </button>
-    <a
-      href="https://github.com/johannchopin/gitmoji-browser-extension"
-      target="_blank"
-      class="github">
-      GitHub
-    </a>
-  </nav>
-</footer>
