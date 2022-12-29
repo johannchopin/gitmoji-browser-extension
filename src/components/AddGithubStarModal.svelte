@@ -1,47 +1,48 @@
 <script>
   /* eslint-disable no-undef */
-  import Modal from './Modal'
-  import Icon from './Icon/Icon'
+  import Modal from './Modal.svelte';
+  import Icon from './Icon/Icon.svelte';
 
-  import { isInExtension } from '../helpers/browser'
+  import { isInExtension } from '../helpers/browser';
 
-  let asAlreadyClicked = true
-  $: isModalOpen = !asAlreadyClicked
+  let asAlreadyClicked = true;
+  $: isModalOpen = !asAlreadyClicked;
 
-  const AS_CLICKED_KEY = 'has-clicked'
-  const OPEN_COUNTER_KEY = 'popup-open-counter'
-  const MIN_OPEN_COUNTER = 5
+  const AS_CLICKED_KEY = 'has-clicked';
+  const OPEN_COUNTER_KEY = 'popup-open-counter';
+  const MIN_OPEN_COUNTER = 5;
 
   const setAsClickedStorage = () => {
-    chrome.storage.local.set({ [AS_CLICKED_KEY]: true })
-  }
+    chrome.storage.local.set({ [AS_CLICKED_KEY]: true });
+  };
 
   const setOpenCounterStorage = (count) => {
-    chrome.storage.local.set({ [OPEN_COUNTER_KEY]: count })
-  }
+    chrome.storage.local.set({ [OPEN_COUNTER_KEY]: count });
+  };
 
   if (isInExtension()) {
     chrome.storage.local.get([AS_CLICKED_KEY, OPEN_COUNTER_KEY], (result) => {
-      const asClicked = result[AS_CLICKED_KEY]
-      const openCounter = result[OPEN_COUNTER_KEY]
+      const asClicked = result[AS_CLICKED_KEY];
+      const openCounter = result[OPEN_COUNTER_KEY];
 
       if (openCounter !== undefined) {
-        setOpenCounterStorage(openCounter + 1)
+        setOpenCounterStorage(openCounter + 1);
 
-        const shouldModalBeOpen = openCounter >= MIN_OPEN_COUNTER && asClicked === undefined
+        const shouldModalBeOpen =
+          openCounter >= MIN_OPEN_COUNTER && asClicked === undefined;
         if (shouldModalBeOpen) {
-          asAlreadyClicked = false
+          asAlreadyClicked = false;
         }
       } else {
-        setOpenCounterStorage(1)
+        setOpenCounterStorage(1);
       }
-    })
+    });
   }
 
   const closeModal = () => {
-    isModalOpen = false
-    setAsClickedStorage()
-  }
+    isModalOpen = false;
+    setAsClickedStorage();
+  };
 </script>
 
 <Modal open={isModalOpen} onClose={closeModal}>

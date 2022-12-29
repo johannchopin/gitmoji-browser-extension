@@ -1,7 +1,7 @@
-var path = require('path')
-var zipFolder = require('zip-folder')
+import path from 'path'
+import zipFolder from 'zip-folder'
 
-zipFolder(path.join(__dirname, '../dist/'), path.join(__dirname, '../extension.zip'), (err) => {
+zipFolder(path.resolve('../dist/'), path.resolve('../extension.zip'), (err) => {
   if (err) {
     console.log('oh no!', err)
   } else {

@@ -1,20 +1,41 @@
 <script>
-  import { settings } from '../stores'
-  import Icon from './Icon/Icon'
-  import { setClipboard } from '../helpers/clipboard'
+  import { settings } from '../stores';
+  import Icon from './Icon/Icon.svelte';
+  import { setClipboard } from '../helpers/clipboard';
 
-  export let code
-  export let emoji
-  export let description
-  export let present = false
-  export let color
-  export let onSave
+  export let code;
+  export let emoji;
+  export let description;
+  export let present = false;
+  export let color;
+  export let onSave;
 
   const copyToClipboard = (value) => {
-    setClipboard(value)
-    onSave()
-  }
+    setClipboard(value);
+    onSave();
+  };
 </script>
+
+<li class="gitmoji" style="--color:{color}">
+  <button class="emoji" on:click={copyToClipboard(emoji)}>
+    <span>{emoji}</span>
+  </button>
+  <button class="code" on:click={copyToClipboard(code)}>
+    <span>{code}</span>
+  </button>
+
+  <div class="indicator-group">
+    {#if present}
+      <div title="this gitmoji appears in the page">
+        <Icon name="eye" class="eye" />
+      </div>
+    {/if}
+  </div>
+
+  {#if $settings.showDescription}
+    <p class="description">{description}</p>
+  {/if}
+</li>
 
 <style>
   button {
@@ -33,7 +54,8 @@
     margin: 0.5em;
   }
 
-  .gitmoji, .description {
+  .gitmoji,
+  .description {
     box-shadow: 0 1px 2px 0 rgba(168, 182, 191, 0.6);
     border-radius: 4px;
   }
@@ -88,7 +110,7 @@
   }
   .code span::before {
     position: absolute;
-    content: "";
+    content: '';
     width: 0;
     margin-top: 1em; /* put it under the text */
     height: 0.2em;
@@ -119,14 +141,14 @@
     border-right: none;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    transition: top .3s;
-    background-color: rgba(255, 255, 255, .8);
+    transition: top 0.3s;
+    background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(5px);
     z-index: 2;
   }
 
   :global(body.dark) .description {
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, 0.8);
   }
 
   .emoji:hover ~ .description,
@@ -144,7 +166,7 @@
     transform: translateY(-50%);
   }
 
-  :global(body.dark .gitmoji .eye)  {
+  :global(body.dark .gitmoji .eye) {
     opacity: 0.7;
     filter: invert(100%);
   }
@@ -185,24 +207,3 @@
     }
   }
 </style>
-
-<li class="gitmoji" style="--color:{color}">
-  <button class="emoji" on:click={copyToClipboard(emoji)}>
-    <span>{emoji}</span>
-  </button>
-  <button class="code" on:click={copyToClipboard(code)}>
-    <span>{code}</span>
-  </button>
-
-  <div class="indicator-group">
-    {#if present}
-      <div title="this gitmoji appears in the page">
-        <Icon name='eye' class='eye' />            
-      </div>
-    {/if}
-  </div>
-
-  {#if $settings.showDescription}
-    <p class="description">{description}</p>
-  {/if}
-</li>

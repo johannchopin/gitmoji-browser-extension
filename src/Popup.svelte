@@ -1,22 +1,31 @@
 <script>
-  import { page, settings } from './stores'
+  import { page, settings } from './stores';
 
-  import Home from './pages/Home'
-  import Settings from './pages/Settings'
-  import Footer from './components/Footer'
-  import AddGithubStarModal from './components/AddGithubStarModal'
+  import Home from './pages/Home.svelte';
+  import Settings from './pages/Settings.svelte';
+  import Footer from './components/Footer.svelte';
+  import AddGithubStarModal from './components/AddGithubStarModal.svelte';
 
   const setThemeClassToBody = (theme) => {
-    const bodyClassList = document.body.classList
+    const bodyClassList = document.body.classList;
     if (theme === 'dark') {
-      bodyClassList.add('dark')
+      bodyClassList.add('dark');
     } else {
-      bodyClassList.remove('dark')
+      bodyClassList.remove('dark');
     }
-  }
+  };
 
-  $: setThemeClassToBody($settings.theme)
+  $: setThemeClassToBody($settings.theme);
 </script>
+
+{#if $page === 'home'}
+  <Home />
+{:else if $page === 'settings'}
+  <Settings />
+{/if}
+
+<Footer />
+<AddGithubStarModal />
 
 <style>
   @font-face {
@@ -53,12 +62,3 @@
     padding: 0.5em 0.5em 0.5em 1em;
   }
 </style>
-
-{#if $page === 'home'}
-  <Home />
-{:else if $page === 'settings'}
-  <Settings />
-{/if}
-
-<Footer />
-<AddGithubStarModal />

@@ -1,15 +1,78 @@
 <script>
-  import { page, settings } from '../stores'
+  import { page, settings } from '../stores';
 
-  import ToggleButton from '../components/ToggleButton'
-  import Icon from '../components/Icon/Icon'
-  import ThemeSwitch from '../components/ThemeSwitch'
-  import MergeGitmojiTypeSelect from '../components/MergeGitmojiTypeSelect'
+  import ToggleButton from '../components/ToggleButton.svelte';
+  import Icon from '../components/Icon/Icon.svelte';
+  import ThemeSwitch from '../components/ThemeSwitch.svelte';
+  import MergeGitmojiTypeSelect from '../components/MergeGitmojiTypeSelect.svelte';
 
   const onThemeChange = (theme) => {
-    settings.setTheme(theme)
-  }
+    settings.setTheme(theme);
+  };
 </script>
+
+<header>
+  <h1>
+    <button
+      on:click={() => {
+        page.goTo('home');
+      }}
+    >
+      <Icon name="arrow-left" />
+    </button>
+    Settings
+  </h1>
+</header>
+
+<div class="settings">
+  <div class="setting center">
+    <ThemeSwitch onChange={onThemeChange} />
+  </div>
+  <div class="setting">
+    <ToggleButton
+      checked={$settings.autoCloseAfterCopy}
+      onClick={() => {
+        settings.setAutoCloseAfterCopy(!$settings.autoCloseAfterCopy);
+      }}
+    />
+    <h2>Close extension after copying a gitmoji</h2>
+  </div>
+  <div class="setting">
+    <ToggleButton
+      checked={$settings.showDescription}
+      onClick={() => {
+        settings.setShowDescription(!$settings.showDescription);
+      }}
+    />
+    <h2>Show description on hover or focus</h2>
+  </div>
+
+  <hr />
+
+  <div class="setting">
+    <ToggleButton
+      checked={$settings.injectGitmoji.inject}
+      onClick={() => {
+        settings.setInjectGitmoji({
+          ...$settings.injectGitmoji,
+          inject: !$settings.injectGitmoji.inject,
+        });
+      }}
+    />
+    <h2>Inject 🔀 gitmoji in GitHub/GitLab pull-request commit's message</h2>
+  </div>
+
+  {#if $settings.injectGitmoji.inject}
+    <div class="setting center">
+      <MergeGitmojiTypeSelect
+        type={$settings.injectGitmoji.type}
+        onChange={(type) => {
+          settings.setInjectGitmoji({ ...$settings.injectGitmoji, type });
+        }}
+      />
+    </div>
+  {/if}
+</div>
 
 <style>
   h1 {
@@ -27,13 +90,13 @@
   }
 
   header :global(.icon) {
-    margin-right: .3em;
+    margin-right: 0.3em;
   }
 
   .settings {
     flex-grow: 1;
     overflow-y: scroll;
-    padding: 0 .5em;
+    padding: 0 0.5em;
     padding-top: 20px;
   }
 
@@ -41,7 +104,6 @@
     color: white;
     background-color: black;
   }
-
 
   .setting {
     display: flex;
@@ -60,63 +122,3 @@
     font-size: 1.5em;
   }
 </style>
-
-<header>
-  <h1>
-    <button on:click={() => { page.goTo('home') }}>
-      <Icon name='arrow-left' />
-    </button>
-    Settings
-  </h1>
-</header>
-
-<div class="settings">
-  <div class="setting center">
-    <ThemeSwitch onChange={onThemeChange}/>
-  </div>
-  <div class="setting">
-    <ToggleButton 
-      checked={$settings.autoCloseAfterCopy} 
-      onClick={() => {
-        settings.setAutoCloseAfterCopy(!$settings.autoCloseAfterCopy)
-      }}
-    />
-    <h2>Close extension after copying a gitmoji</h2>
-  </div>
-  <div class="setting">
-    <ToggleButton 
-      checked={$settings.showDescription} 
-      onClick={() => {
-        settings.setShowDescription(!$settings.showDescription)
-      }}
-    />
-    <h2>Show description on hover or focus</h2>
-  </div>
-
-  <hr>
-
-  <div class="setting">
-    <ToggleButton 
-      checked={$settings.injectGitmoji.inject} 
-      onClick={() => {
-        settings.setInjectGitmoji({
-          ...$settings.injectGitmoji,
-          inject: !$settings.injectGitmoji.inject
-        })
-      }}
-    />
-    <h2>Inject 🔀 gitmoji in GitHub/GitLab pull-request commit's message</h2>
-  </div>
-
-  {#if $settings.injectGitmoji.inject}
-    <div class="setting center">
-      <MergeGitmojiTypeSelect
-        type={$settings.injectGitmoji.type}
-        onChange={(type) => {
-          settings.setInjectGitmoji({ ...$settings.injectGitmoji, type })
-        }}
-      />
-    </div>
-  {/if}
-
-</div>

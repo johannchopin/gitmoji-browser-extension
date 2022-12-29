@@ -1,6 +1,7 @@
 {
   "name": "gitmoji-chrome-extension",
   "version": "1.0.0",
+  "type": "module",
   "repository": "https://gitlab.com/johannchopin/gitmoji-chrome-extension.git",
   "author": "johannchopin <johannchopin@pm.me>",
   "maintainers": [
@@ -12,13 +13,9 @@
     "move:all": "yarn move:manifest && yarn move:icons",
     "move:icons": "yarn cpy ./static/icons/ ./dist/icons/",
     "move:manifest": "yarn cpy ./manifest.json ./dist",
-    "start": "yarn move:all && yarn parcel ./sandbox/popup-sandbox.html --open ",
-    "watch": "yarn move:all && yarn parcel watch './src/**/*.(js|html|png)' --public-url .",
+    "start": "yarn vite --config vite.dev.js",
     "clean": "yarn rimraf ./dist extension.zip",
-    "build": "yarn clean && yarn move:all && yarn parcel build './src/**/*.(js|html|png)' --no-source-maps && yarn node scripts/zipExtension.js",
-    "lint": "yarn eslint ./src",
-    "test": "jest test",
-    "test:watch": "npm run test -- --watch"
+    "build": "yarn clean && yarn move:all && yarn vite build && yarn node scripts/zipExtension.js"
   },
   "dependencies": {
     "gitmojis": "^3.13.0",
@@ -30,6 +27,7 @@
     "@babel/core": "^7.14.3",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.15.8",
+    "@sveltejs/vite-plugin-svelte": "^2.0.2",
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/svelte": "^3.0.3",
     "babel-jest": "^27.2.4",
@@ -47,6 +45,7 @@
     "parcel-transformer-svelte": "1.1.2",
     "rimraf": "3.0.2",
     "svelte-preprocess": "4.9.8",
+    "vite": "^4.0.3",
     "zip-folder": "^1.0.0"
   }
 }
