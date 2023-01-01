@@ -41,7 +41,7 @@
     "jest": "^27.3.0",
     "jest-preview": "^0.3.1",
     "jest-transform-svelte": "^2.1.1",
-    "parcel": "1.12.4",
+    "parcel": "2.8.2",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-svelte": "^4.0.8",
     "parcel-transformer-svelte": "1.1.2",
