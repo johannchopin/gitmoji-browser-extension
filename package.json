@@ -32,7 +32,7 @@
     "@babel/preset-env": "^7.15.8",
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/svelte": "^3.0.3",
-    "babel-jest": "^27.2.4",
+    "babel-jest": "^29.4.1",
     "cpy": "^9.0.1",
     "cpy-cli": "^4.2.0",
     "eslint": "7.32.0",
