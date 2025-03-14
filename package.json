@@ -8,20 +8,23 @@
     "Lyokolux <lyokolux@protonmail.com> (https://lyokolux.space)"
   ],
   "license": "MIT",
+  "engines": {
+    "node": "16"
+  },
   "scripts": {
     "move:all": "yarn move:manifest && yarn move:icons",
-    "move:icons": "yarn cpy ./static/icons/ ./dist/icons/",
+    "move:icons": "yarn cpy ./static/icons/ ./dist/icons/ --flat",
     "move:manifest": "yarn cpy ./manifest.json ./dist",
     "start": "yarn move:all && yarn parcel ./sandbox/popup-sandbox.html --open ",
-    "watch": "yarn move:all && yarn parcel watch './src/**/*.(js|html|png)' --public-url .",
+    "watch": "yarn move:all && yarn parcel watch ./src/**/*' --public-url .",
     "clean": "yarn rimraf ./dist extension.zip",
-    "build": "yarn clean && yarn move:all && yarn parcel build './src/**/*.(js|html|png)' --no-source-maps && yarn node scripts/zipExtension.js",
+    "build": "yarn clean && yarn move:all && yarn parcel build ./src/popup.html --no-source-maps && yarn parcel build ./src/injectMergeGitmoji.js --no-source-maps && yarn node scripts/zipExtension.js",
     "lint": "yarn eslint ./src",
     "test": "jest test",
     "test:watch": "npm run test -- --watch"
   },
   "dependencies": {
-    "gitmojis": "^3.13.0",
+    "gitmojis": "3.13.0",
     "node-fetch": "^2.0.0",
     "svelte": "^3.43.1",
     "svelte-portal": "^2.0.0"
@@ -33,8 +36,8 @@
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/svelte": "^3.0.3",
     "babel-jest": "^27.2.4",
-    "cpy": "^9.0.1",
-    "cpy-cli": "^4.2.0",
+    "cpy": "9.0.1",
+    "cpy-cli": "4.2.0",
     "eslint": "7.32.0",
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-plugin-svelte3": "2.7.3",
@@ -42,8 +45,8 @@
     "jest-preview": "^0.3.1",
     "jest-transform-svelte": "^2.1.1",
     "parcel": "1.12.4",
-    "parcel-bundler": "^1.12.5",
-    "parcel-plugin-svelte": "^4.0.8",
+    "parcel-bundler": "1.12.5",
+    "parcel-plugin-svelte": "4.0.8",
     "parcel-transformer-svelte": "1.1.2",
     "rimraf": "3.0.2",
     "svelte-preprocess": "4.9.8",

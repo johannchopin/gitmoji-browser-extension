@@ -4,8 +4,6 @@
   import GitmojiList from '../components/GitmojiList'
   import logo from '../assets/gitmoji-logo.svg'
 
-  import { onGetTabInnerHTML } from '../helpers/browser'
-
   let gitmojis = gitmojisList
   let filter = ''
 
@@ -49,34 +47,6 @@
   }
 
   $: filteredGitmojis = getFilteredGitmojis(gitmojis, filter)
-
-  const getGitmojisPresentInTab = (tabInnerText) => {
-    return gitmojis.filter((gitmoji) => {
-      const stringsToSearch = [gitmoji.code, gitmoji.emoji]
-
-      return stringsToSearch.some((stringToSearch) => {
-        return tabInnerText.includes(stringToSearch)
-      })
-    })
-  }
-
-  const setGitmojisPresentInTab = (gitmojisPresentInTab) => {
-    const clonedGitmojis = [...gitmojis]
-    gitmojisPresentInTab.forEach((gitmojiPresentInTab) => {
-      const gitmojiPresentInTabIndex = clonedGitmojis.findIndex((gitmoji) => {
-        return gitmoji.name === gitmojiPresentInTab.name
-      })
-      gitmojiPresentInTab.present = true
-
-      clonedGitmojis[gitmojiPresentInTabIndex] = gitmojiPresentInTab
-    })
-
-    gitmojis = clonedGitmojis
-  }
-
-  onGetTabInnerHTML((tabInnerText) => {
-    setGitmojisPresentInTab(getGitmojisPresentInTab(tabInnerText))
-  })
 
   const setFilter = (value) => {
     filter = value.target.value.toLowerCase()

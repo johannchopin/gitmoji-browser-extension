@@ -3055,7 +3055,7 @@ cp-file@^9.1.0:
     nested-error-stacks "^2.0.0"
     p-event "^4.1.0"
 
-cpy-cli@^4.2.0:
+cpy-cli@4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/cpy-cli/-/cpy-cli-4.2.0.tgz#d60bf9ac776486af20aac2fa4fb95f8f10b35ce8"
   integrity sha512-b04b+cbdr29CdpREPKw/itrfjO43Ty0Aj7wRM6M6LoE4GJxZJCk9Xp+Eu1IqztkKh3LxIBt1tDplENsa6KYprg==
@@ -3063,7 +3063,7 @@ cpy-cli@^4.2.0:
     cpy "^9.0.0"
     meow "^10.1.2"
 
-cpy@^9.0.0, cpy@^9.0.1:
+cpy@9.0.1, cpy@^9.0.0:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/cpy/-/cpy-9.0.1.tgz#7f3ad0ad5bafe0bc70645c4bb567969927cadb9f"
   integrity sha512-D9U0DR5FjTCN3oMTcFGktanHnAG5l020yvOCR1zKILmAyPP7I/9pl6NFgRbDcmSENtbK1sQLBz1p9HIOlroiNg==
@@ -4488,10 +4488,10 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gitmojis@^3.13.0:
-  version "3.13.1"
-  resolved "https://registry.yarnpkg.com/gitmojis/-/gitmojis-3.13.1.tgz#0bc1111611b3adc726f7ba8a4b1c25fbc457a449"
-  integrity sha512-HA9iV+NBT8UR3T8LlUgPtvMKcBJa7RKenljoJhScWT/0gaggeQtyqXbPzLTv3u6BptTNOdadFDV5PiXMUDn2+g==
+gitmojis@3.13.0:
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/gitmojis/-/gitmojis-3.13.0.tgz#4723017832f0b97b284a1aed32cc384cc35f2c7e"
+  integrity sha512-vBRPLpEakxS6oJrX7IoJqEEigNFgXdLCnGv9EaH0+txozhpvat+PvdDH3h+mM4adgGAA932Za3Hgeupt5/XqyQ==
 
 glob-parent@^3.1.0:
   version "3.1.0"
@@ -7048,7 +7048,7 @@ pako@~1.0.5:
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.11.tgz#6c9599d340d54dfd3946380252a35705a6b992bf"
   integrity sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==
 
-parcel-bundler@^1.12.5:
+parcel-bundler@1.12.5:
   version "1.12.5"
   resolved "https://registry.yarnpkg.com/parcel-bundler/-/parcel-bundler-1.12.5.tgz#91f7de1c1fbfe5111616d3211c749c85c4d8acf0"
   integrity sha512-hpku8mW67U6PXQIenW6NBbphBOMb8XzW6B9r093DUhYj5GN2FUB/CXCiz5hKoPYUsusZ35BpProH8AUF9bh5IQ==
@@ -7113,10 +7113,10 @@ parcel-bundler@^1.12.5:
     v8-compile-cache "^2.0.0"
     ws "^5.1.1"
 
-parcel-plugin-svelte@^4.0.8:
-  version "4.0.9"
-  resolved "https://registry.yarnpkg.com/parcel-plugin-svelte/-/parcel-plugin-svelte-4.0.9.tgz#115225d86bcea74021722d270e1532d86698f333"
-  integrity sha512-ZMAvd3FS/J+4apTJTZhrQ3gl/37sVSBgMPgjzPuWcIhzvk69zFiUa0vSv8heyGSPVCRwrzr/V3UQQX1uap2uwQ==
+parcel-plugin-svelte@4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-svelte/-/parcel-plugin-svelte-4.0.8.tgz#4c82bfae67139e216a129ffaab86fbbcdeb358dc"
+  integrity sha512-uaxWpqCEzpWlYgXAxzpIPnd9e9pO46Z7D2I3mg3vAoAsXoXji9KRTXZk2kWXg+Rj1QYNez0cWgjbg0DvSNhvlA==
 
 parcel-transformer-svelte@1.1.2:
   version "1.1.2"

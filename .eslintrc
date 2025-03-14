@@ -21,6 +21,9 @@
       "processor": "svelte3/svelte3"
     }
   ],
+  "globals": {
+    "chrome": true
+  },
   "rules": {
     "eol-last": [
       "error",
