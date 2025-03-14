@@ -70,7 +70,6 @@ Install the extension according to your browser:
 ## 🧩 Features
 
 - 🔍 Search for a specific gitmoji's code/emoji by name or description
-- 🐕 Detect the gitmojis present on the current tab
 - ➕ Inject 🔀 gitmoji in front of the commit title of GitHub/GitLab pull-request (⚙️)
 - 🌔 Dark/light mode (⚙️)
 - ❌ Close extension's popup after a gitmoji is saved in the clipboard (⚙️)
