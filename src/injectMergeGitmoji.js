@@ -26,7 +26,13 @@ export const getPlatform = () => {
 }
 
 const getCommitTitleInput = (platform) => {
-  if (platform === 'github') return document.querySelector('input[name="commit_title"]')
+  if (platform === 'github') {
+    const newUIInput = document.querySelector('input[data-component="input"]')
+    if (newUIInput) return newUIInput
+
+    return document.querySelector('input[name="commit_title"]')
+  }
+
   if (platform === 'gitlab') return document.getElementById('merge-message-edit')
 
   return null
@@ -63,6 +69,10 @@ chrome.storage.local.get([INJECT_GITMOJI_SETTINGS_KEY], (result) => {
 
   if (inject) {
     const observer = new MutationObserver(() => { injectMergeGitmoji(type) })
-    observer.observe(document.body, { attributes: true, childList: true })
+    observer.observe(document.body, {
+      attributes: true,
+      childList: true,
+      subtree: true
+    })
   }
 })
